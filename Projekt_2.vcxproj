@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Source\List.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\MovieNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\List.h" />
+    <ClInclude Include="Headers\MovieNode.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
