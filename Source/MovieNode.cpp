@@ -60,13 +60,13 @@ const float MovieNode::GetRating() const
 
 MovieNode* MovieNode::GetNext() const
 {
-	if (this == nullptr) std::cout << "Funkcja \"GetNext:\": otrzymala nullptr" << std::endl;
+	if (this == nullptr)  throw nullptr; //std::cout << "Funkcja \"GetNext:\": otrzymala nullptr" << std::endl;
 	else return next;
 }
 
 MovieNode* MovieNode::GetPrevious() const
 {
-	if (this == nullptr) std::cout << "Funkcja \"GetPrevious:\": otrzymala nullptr" << std::endl;
+	if (this == nullptr) throw nullptr; //std::cout << "Funkcja \"GetPrevious:\": otrzymala nullptr" << std::endl;
 	else return previous;
 }
 
