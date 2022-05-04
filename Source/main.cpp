@@ -12,8 +12,8 @@ int main()
 	List<MovieNode> L;
 	//MovieNode* N;
 	string name;
-	int number = -1;
-	string  rating;
+	int number = 0;
+	float  rating = 0;
 	ifstream file;
 	file.open("projekt2.csv");
 	//file.open("1.txt");
@@ -23,7 +23,7 @@ int main()
 	{
 		//file.ignore(1000, '\n');      
 		//while (file.peek() != file.eof())
-		for (int i = 0; i < 3; i++)
+		for (int i = 0; i < 15; i++)
 		{
 
 			while (!(file >> number))          // Ulepsz(sprawdza tylko kilka znaków jak nie to idzie dalej)
@@ -41,26 +41,33 @@ int main()
 			}
 			if (!isdigit(file.peek()) && (file.peek() != '\n'))
 			{
+				int length = file.tellg();
 				getline(file, help, ',');
-				name += help;
-				//cout << help << endl;
+				if ((help.find("\n") != std::string::npos))
+				{
+					file.seekg(length, std::ios_base::beg);
+					//	file.unget();
+				}
+				else name += help;
+
+				cout << help << " " << (help.find("\n") == std::string::npos) << endl;
 			}
-			//cout << (file.peek() == '\n') << endl;
+
 			if ((file.peek() == '\n') || !(file >> rating))
 			{
-				//cout <<rating<< file.good()<<"kwadrat" << endl;
-				
-				rating = "zero";
+				rating = 0;
 				file.clear();
+				//cout << rating << endl;
 			}
-			cout << rating << endl;
-				/*while (!(file >> rating))
-			{
-				file.clear();
-				file.ignore();
-			}*/
-			//file.ignore(1000, '\n');
-			//L.AddAtEnd(new MovieNode(name, number, rating));
+
+			/*while (!(file >> rating))
+		{
+			file.clear();
+			file.ignore();
+		}*/
+			file.ignore(1000, '\n');
+
+			L.AddAtEnd(new MovieNode(name, number, rating));
 		}
 		//cout << (file.peek() == EOF) << endl;
 		//cout << (file.peek() == file.eof()) << endl << L.Size() << endl;
@@ -69,12 +76,12 @@ int main()
 	else cout << "Plik nie jest otwarty.";
 	file.close();
 
-	
+
 	chrono::steady_clock::time_point TimerEnd = chrono::high_resolution_clock::now();
 	chrono::duration<float> ExTime = TimerEnd - TimerStart;
 	cout << "Execution time: " << ExTime.count() << endl;
-	
-	//L.PrintList();
+
+	L.PrintList();
 	//cout << L.Last()->GetKey() << L.Last()->GetName() << L.Last()->GetRating() << endl;
 	//chrono::high_resolution_clock::now();
 

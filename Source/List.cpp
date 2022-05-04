@@ -76,7 +76,7 @@ void List<T>::PrintList() const
 		for (int i = 0; i < Size(); i++)
 		{
 			head = head->GetNext();
-			std::cout << " (number: " << head->GetKey() << ") " << head->GetName() << " (rate: " << head->GetRating() << ")" << std::endl;
+			std::cout << " (number: " << head->GetKey() << ") " << head->GetName() << " (rating: " << head->GetRating() << ")" << std::endl;
 		}
 	}
 }
