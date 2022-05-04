@@ -11,100 +11,101 @@ int main()
 	MovieNode* N;
 	string name;
 	int number = -1;
-	float rating = -1.0;
+	float rating;
 	ifstream file;
-	//file.open("projekt2.csv");
-	file.open("1.txt");
-	int c;
-	
+	file.open("projekt2_dane.csv");
+	//file.open("1.txt");
+	string help;
+
 	//c = file.get();
 	//cout << isdigit(file.peek()) << endl;
-	for (int i = 0; i < 3; i++)
-	{
-		//file.ignore(1000, '\n');
-		
-	}
+	//for (int i = 0; i < 2; i++)
+	//{
+	//	while (!(file >> number))
+	//	{
+	//		file.clear();
+	//		file.ignore();
+	//	}
+	//	file.ignore(1000, ',');
+	//	while (!(getline(file, name, ',')))
+	//	{
+	//		file.clear();
+	//		file.ignore();
+	//	}
+	//	//file.ignore(1000, ',');
+
+	//	
+	//	//rating = file.get();
+	//	file >> rating;
+	//	cout << file.good() << endl;
+
+	//	/*while (!(file >> rating))
+	//	{
+	//		file.clear();
+	//		file.ignore();
+	//	}*/
+	//	file.ignore(1000, '\n');
+
+	//	//file.ignore(1000, '\n');
+	//	cout <<number << name << " " << rating << endl;
+	//}
 
 	//file.clear();
 	//cout << quoted(c, ',') << endl;
 
 	if (file.is_open())
 	{
-		file.ignore(1000, '\n');
-		for (int i = 0; i < 3; i++)
-			//while (file.peek() != file.eof())
+		//file.ignore(1000, '\n');
+		for (int i = 0; i < 50000; i++)
+		//while (file.peek() != file.eof())
 		{
-			if (file.good())
+			//if (file.good())
+			//{
+
+			while (!(file >> number))
 			{
-				
-				while (!(file >> c))
-				{
-					file.clear();
-					file.ignore();
-				}
-				file.ignore(1000, ',');
-
-				//if (file >> number) cout << "tak" << file.fail() << endl;
-				//else
-				//{
-				//	cout << "nie" << file.fail() << endl;
-				//	//do
-				//	//{
-
-				//		//cout << name << endl;
-				//		//file.unget();
-				//		//while (file.fail())
-				//		//{
-				//		//	file.putback('\"');
-				//		//	//file.ignore();
-				//		//	//file >> number;
-				//		//	file.get();
-				//		//	cout << number << " " << file.fail() << endl;
-				//		//}
-
-				//		//file >> number;
-				//	if (file.good()) cout << "dobry numer" << endl;
-				//	cout << number << endl;
-				//	//} while (!(file >> number));
-				//}
-
-				//if (file.peek() != '\"') file >> number;
-				//else file.clear();
-
-
-				
-				//file.ignore(1000, '\n');
-
-				//if (file.peek() == '\"') file.ignore();
-				if (file.peek() != '\"')
-				{
-					getline(file, name, ',');
-				}
-				else getline(file, name, '\"');
-
-				/*	if (file.peek() == '\"')
-					{
-						file.ignore();
-						getline(file, name, ',');
-						file.clear();
-					}*/
-
-				file >> rating;
-				file.ignore(1000, '\n');
-
-				//do
-				//{
-				//	if (!file.good())
-				//	{
-				//		file.ignore(1000, ',');
-				//		file.clear();
-				//	}
-				//	//if (!file.good()) file.ignore(1000, ',');
-				//} while (!file.good());
-
-				L.AddAtEnd(new MovieNode(name, number, rating));
+				file.clear();
+				file.ignore();
 			}
-			else cout << "Problem z plikiem" << endl;
+			file.ignore(1000, ',');
+
+
+			while (!getline(file, name, ','))
+			{
+				file.clear();
+				file.ignore();
+			}
+			if (!isdigit(file.peek()))
+			{
+				getline(file, help, ',');
+				name += help;
+			}
+			//cout << isdigit(file.peek()) << endl;
+			//cout << (!isdigit(file.peek())) << endl;
+			//file.ignore(1000, ',');
+
+			while (!(file >> rating))
+			{
+				file.clear();
+				file.ignore();
+			}
+			file.ignore(1000, '\n');
+
+			//cout << file.good() << endl;
+
+			//do
+			//{
+			//	if (!file.good())
+			//	{
+			//		file.ignore(1000, ',');
+			//		file.clear();
+			//	}
+			//	//if (!file.good()) file.ignore(1000, ',');
+			//} while (!file.good());
+			//cout << number << name << " " << rating << endl;
+			L.AddAtEnd(new MovieNode(name, number, rating));
+			//}
+			//else cout << "Problem z plikiem" << endl;
 		}
 		//cout << (file.peek() == EOF) << endl;
 		//cout << (file.peek() == file.eof()) << endl << L.Size() << endl;
@@ -112,6 +113,7 @@ int main()
 
 	}
 	else cout << "Plik nie jest otwarty.";
+
 
 	file.close();
 	return 0;
