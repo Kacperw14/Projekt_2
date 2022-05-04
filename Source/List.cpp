@@ -39,7 +39,7 @@ const int& List<T>::Size() const
 template <typename T>
 void List<T>::AddAtEnd(const T* _node)
 {
-	T* newNode = new T(_node->GetName(), (_node->GetKey() + 1), _node->GetRating(), trailer->GetPrevious(), trailer);
+	T* newNode = new T(_node->GetName(), _node->GetKey(), _node->GetRating(), trailer->GetPrevious(), trailer);
 	trailer->GetPrevious()->SetNext(newNode);
 	trailer->SetPrevious(newNode);
 }
@@ -76,7 +76,7 @@ void List<T>::PrintList() const
 		for (int i = 0; i < Size(); i++)
 		{
 			head = head->GetNext();
-			std::cout << head->GetName() << " (nr wiadomosci: " << head->GetKey() << ")" << std::endl;
+			std::cout << " (number: " << head->GetKey() << ") " << head->GetName() << " (rate: " << head->GetRating() << ")" << std::endl;
 		}
 	}
 }
