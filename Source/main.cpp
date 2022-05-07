@@ -1,5 +1,4 @@
 #include<iostream>
-#include<iomanip> /////////////
 #include<fstream>
 #include<string>
 #include<chrono>
@@ -10,7 +9,6 @@ int main()
 {
 	chrono::steady_clock::time_point TimerStart = chrono::high_resolution_clock::now();
 	List<MovieNode> L;
-	//MovieNode* N;
 	string name;
 	int number = 0;
 	float  rating = 0;
@@ -21,14 +19,10 @@ int main()
 
 	if (file.is_open())
 	{
-		//file.ignore(1000, '\n');      
 		// 1010294                             Wszystkie dane
-		//for (int i = 0; i < 1010293; i++)
+			//for (int i = 0; i < 1010293; i++)
 		while (file.peek() != EOF)
 		{
-			
-			//cout << (file.peek() != EOF) << endl;
-
 			while (!(file >> number))          // Ulepsz(sprawdza tylko kilka znaków jak nie to idzie dalej)
 			{
 				file.clear();
@@ -60,21 +54,12 @@ int main()
 			{
 				rating = 0;
 				file.clear();
-				//cout << rating << endl;
 			}
 
-			/*while (!(file >> rating))
-		{
-			file.clear();
-			file.ignore();
-		}*/
 			file.ignore(1000, '\n');
 
 			L.AddAtEnd(new MovieNode(name, number, rating));
 		}
-		//cout << (file.peek() == EOF) << endl;
-		//cout << (file.peek() == file.eof()) << endl << L.Size() << endl;
-
 	}
 	else cout << "Plik nie jest otwarty.";
 	file.close();
@@ -86,8 +71,6 @@ int main()
 
 	//L.PrintList();
 	cout << L.Last()->GetKey() << L.Last()->GetName() << L.Last()->GetRating() << endl;
-	//chrono::high_resolution_clock::now();
-
 	return 0;
 } //main
 
