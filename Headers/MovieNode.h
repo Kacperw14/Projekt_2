@@ -32,8 +32,17 @@ public:
 	void SetNext(MovieNode* newNode);
 	void SetPrevious(MovieNode* newNode);
 
-	//void SetKey(int _key);
-	//void SwapKeys(MovieNode* _node);
+	void SetKey(int _key) 
+	{
+		if (_key > 0) key = _key;
+		else key = 0;
+	};
+	void SwapKeys(MovieNode* _node)
+	{
+		int holder = _node->GetKey();
+		_node->SetKey(key);
+		SetKey(holder);
+	};
 
 
 }; //CLASS

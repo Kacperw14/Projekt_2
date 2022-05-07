@@ -26,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="Headers\List.h" />
     <ClInclude Include="Headers\MovieNode.h" />
+    <ClInclude Include="Headers\QuickSort.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

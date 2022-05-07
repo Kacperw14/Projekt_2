@@ -3,12 +3,13 @@
 #include<string>
 #include<chrono>
 #include"../Headers/List.h"
+#include"../Headers/QuickSort.h"
 
 using namespace std;
 int main()
 {
 	chrono::steady_clock::time_point TimerStart = chrono::high_resolution_clock::now();
-	List<MovieNode> L;
+	List<MovieNode> L, Q;
 	string name;
 	int number = 0;
 	float  rating = 0;
@@ -17,6 +18,19 @@ int main()
 	//file.open("1.txt");
 	string help;
 
+	Q.AddAtEnd(new MovieNode("c", 3, 3));
+	Q.AddAtEnd(new MovieNode("a", 1, 1));
+	Q.AddAtEnd(new MovieNode("b", 2, 2));
+	//Q.AddAtEnd(new MovieNode("d", 4, 4));
+	//Q.AddAtEnd(new MovieNode("e", 5, 5));
+	//Q.AddAtEnd(new MovieNode("f", 6, 6));
+	//Q.AddAtEnd(new MovieNode("g", 7, 7));
+
+	Q.PrintList();
+	Quicksort::QuickSort(Q.First(), Q.Last());
+	cout << endl;
+	Q.PrintList();
+	/*
 	if (file.is_open())
 	{
 		// 1010294                             Wszystkie dane
@@ -71,6 +85,7 @@ int main()
 
 	//L.PrintList();
 	cout << L.Last()->GetKey() << L.Last()->GetName() << L.Last()->GetRating() << endl;
+	*/
 	return 0;
 } //main
 
