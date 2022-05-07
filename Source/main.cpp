@@ -15,16 +15,19 @@ int main()
 	int number = 0;
 	float  rating = 0;
 	ifstream file;
-	file.open("projekt2.csv");
+	file.open("projekt2_dane.csv");
 	//file.open("1.txt");
 	string help;
 
 	if (file.is_open())
 	{
 		//file.ignore(1000, '\n');      
-		//while (file.peek() != file.eof())
-		for (int i = 0; i < 15; i++)
+		// 1010294                             Wszystkie dane
+		//for (int i = 0; i < 1010293; i++)
+		while (file.peek() != EOF)
 		{
+			
+			//cout << (file.peek() != EOF) << endl;
 
 			while (!(file >> number))          // Ulepsz(sprawdza tylko kilka znaków jak nie to idzie dalej)
 			{
@@ -50,7 +53,7 @@ int main()
 				}
 				else name += help;
 
-				cout << help << " " << (help.find("\n") == std::string::npos) << endl;
+				//cout << help << " " << (help.find("\n") == std::string::npos) << endl;
 			}
 
 			if ((file.peek() == '\n') || !(file >> rating))
@@ -81,8 +84,8 @@ int main()
 	chrono::duration<float> ExTime = TimerEnd - TimerStart;
 	cout << "Execution time: " << ExTime.count() << endl;
 
-	L.PrintList();
-	//cout << L.Last()->GetKey() << L.Last()->GetName() << L.Last()->GetRating() << endl;
+	//L.PrintList();
+	cout << L.Last()->GetKey() << L.Last()->GetName() << L.Last()->GetRating() << endl;
 	//chrono::high_resolution_clock::now();
 
 	return 0;
