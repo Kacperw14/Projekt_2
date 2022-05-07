@@ -4,8 +4,8 @@
 template <typename T>
 List<T>::List()
 {
-	header = new T("header", 0, 0.0, nullptr, nullptr);
-	trailer = new T("trailer", 0, 0.0, header, nullptr);
+	header = new T("header", 0, 0, nullptr, nullptr);
+	trailer = new T("trailer", 0, 0, header, nullptr);
 	header->SetNext(trailer);
 }
 

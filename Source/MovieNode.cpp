@@ -8,7 +8,7 @@ MovieNode::MovieNode()
 	next = nullptr;
 }
 
-MovieNode::MovieNode(std::string _name, int _key, float _rating)
+MovieNode::MovieNode(std::string _name, int _key, int _rating)
 {
 	name = _name;
 	key = _key;
@@ -17,7 +17,7 @@ MovieNode::MovieNode(std::string _name, int _key, float _rating)
 	next = nullptr;
 }
 
-MovieNode::MovieNode(std::string _name, int _key, float _rating, MovieNode* _previous, MovieNode* _next)
+MovieNode::MovieNode(std::string _name, int _key, int _rating, MovieNode* _previous, MovieNode* _next)
 {
 	name = _name;
 	key = _key;
@@ -33,6 +33,15 @@ MovieNode::MovieNode(const MovieNode& newNode)
 	rating = newNode.GetRating();
 	next = newNode.GetNext();
 	previous = newNode.GetPrevious();
+}
+
+MovieNode::MovieNode(MovieNode* newNode)
+{
+	name = newNode->GetName();
+	key = newNode->GetKey();
+	rating = newNode->GetRating();
+	next = newNode->GetNext();
+	previous = newNode->GetPrevious();
 }
 
 MovieNode::~MovieNode()
@@ -52,7 +61,7 @@ const int MovieNode::GetKey() const
 	else return key;
 }
 
-const float MovieNode::GetRating() const
+const int MovieNode::GetRating() const
 {
 	if (this == nullptr) return 0;
 	else return rating;
