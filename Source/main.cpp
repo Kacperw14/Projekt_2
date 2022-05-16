@@ -30,7 +30,8 @@ int main()
 	Q.AddAtEnd(new MovieNode("f", 6, 6));
 	
 	Q.PrintList();
-	cout <<endl<< MergeSort::Split(Q.First())->GetName()<<endl;
+	cout << endl << QuickSort::partition(Q.First(), Q.Last())->GetName() << endl;
+	//cout <<endl<< MergeSort::Sort(Q.First())->GetName()<<endl;
 	Q.PrintList();
 	////Q.First()->SwapData(Q.Last());
 	//Q.Last()->SwapData(Q.First());
@@ -114,7 +115,7 @@ int main()
 
 	//L.PrintList();
 	
-	cout << L.Last()->GetKey() << " " << L.Last()->GetName() << endl << L.Last()->GetRating() << endl;
+	//cout << L.Last()->GetKey() << " " << L.Last()->GetName() << endl << L.Last()->GetRating() << endl;
 	//cout << L.First()->GetKey() << " " << L.First()->GetName() << endl << L.First()->GetRating() << endl;
 
 	return 0;

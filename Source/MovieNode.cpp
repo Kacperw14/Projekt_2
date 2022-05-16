@@ -69,7 +69,7 @@ const int MovieNode::GetRating() const
 
 MovieNode* MovieNode::GetNext() const
 {
-	if (this == nullptr)  throw nullptr; //std::cout << "Funkcja \"GetNext:\": otrzymala nullptr" << std::endl;
+	if (this == nullptr) std::cout << "Funkcja \"GetNext:\": otrzymala nullptr" << std::endl; //throw nullptr;
 	else return next;
 }
 

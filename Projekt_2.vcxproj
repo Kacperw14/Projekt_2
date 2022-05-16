@@ -24,6 +24,7 @@
     <ClCompile Include="Source\MovieNode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers\IntroSort.h" />
     <ClInclude Include="Headers\List.h" />
     <ClInclude Include="Headers\MergeSort.h" />
     <ClInclude Include="Headers\MovieNode.h" />

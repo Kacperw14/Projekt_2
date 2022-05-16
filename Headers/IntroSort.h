@@ -1,11 +1,10 @@
 #include<iostream>
 #include"../Headers/List.h"
 
-struct MergeSort
+struct IntroSort
 {
 
 public:
-	
-		
+
 
 }; //Class
