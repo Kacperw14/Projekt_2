@@ -14,7 +14,16 @@ public:
 	//Konstruktory
 	List();
 	//Konstruktor kopiujacy
-	List(const List& _lista) : header(_lista.header), trailer(_lista.trailer) {};  
+	List(const List& _lista) : header(_lista.header), trailer(_lista.trailer){};  
+	List(List* _lista)
+	{
+		for (T* i = _lista->First(); i != _lista->Last(); i++)
+		{
+			AddAtEnd(i);
+			std::cout << "Jestem" << std::endl;
+			//i = i->GetNext();
+		}
+	};  
 	//Destruktor
 	~List() { delete header; delete trailer;};
 	//
@@ -24,7 +33,7 @@ public:
 	T* AtIndex(const int& _key) const;
 	const int& IndexOf(const std::string& mess) const;
 	T* Last() const { return trailer->GetPrevious(); };
-	T* First() const { return header->GetNext(); };
+	T* First() { return header->GetNext(); };
 	//
 
 	//Metody dodajace

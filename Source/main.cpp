@@ -22,23 +22,28 @@ int main()
 	string help;
 
 	Q.AddAtEnd(new MovieNode("a", 1, 1));
-	Q.AddAtEnd(new MovieNode("c", 3, 3));
 	Q.AddAtEnd(new MovieNode("b", 2, 2));
+	Q.AddAtEnd(new MovieNode("c", 3, 3));
 	Q.AddAtEnd(new MovieNode("d", 4, 4));
-	Q.AddAtEnd(new MovieNode("g", 7, 7));
-	Q.AddAtEnd(new MovieNode("e", 5, 5));
-	Q.AddAtEnd(new MovieNode("f", 6, 6));
+	//Q.AddAtEnd(new MovieNode("f", 6, 6));
+	/*Q.AddAtEnd(new MovieNode("e", 5, 5));
+	Q.AddAtEnd(new MovieNode("g", 7, 7));*/
 	
 	Q.PrintList();
-	QuickSort::Sort(Q.First(), Q.Last());
+	//MergeSort::Sort(Q.First(), Q.Last());
 	cout << endl  << endl;
+	MergeSort::Split(&Q)->PrintList();//.PrintList();
+	//->PrintList();
+	//MergeSort::Sort(Q.First())->GetName();
+	cout << endl << endl;
 	Q.PrintList();
+	cout << endl;
 
 	if (file.is_open())
 	{
 		//3892
 		// 1010293                             Wszystkie dane
-		for (int i = 0; i < 10000; i++)
+		for (int i = 0; i < 10; i++)
 			//while (file.peek() != EOF)
 		{
 			//wczytanie "numer"
@@ -106,11 +111,12 @@ int main()
 	else cout << "Plik nie jest otwarty.";
 	file.close();
 
-	QuickSort::Sort(L.First(), L.Last());
+	//QuickSort::Sort(L.First(), L.Last());
 
 	chrono::steady_clock::time_point TimerEnd = chrono::high_resolution_clock::now();
 	chrono::duration<float> ExTime = TimerEnd - TimerStart;
 	cout << "Execution time: " << ExTime.count() << endl;
+
 
 	//L.PrintList();
 	

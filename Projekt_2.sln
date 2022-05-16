@@ -11,14 +11,20 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Nowy64|x64 = Nowy64|x64
+		Nowy64|x86 = Nowy64|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x64.ActiveCfg = Debug|x64
 		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x64.Build.0 = Debug|x64
-		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x86.ActiveCfg = Debug|Win32
-		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x86.Build.0 = Debug|Win32
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x86.ActiveCfg = Debug|x64
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Debug|x86.Build.0 = Debug|x64
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Nowy64|x64.ActiveCfg = Nowy64|x64
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Nowy64|x64.Build.0 = Nowy64|x64
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Nowy64|x86.ActiveCfg = Nowy64|x64
+		{E307619A-55B4-474D-93AD-F8405B6FD860}.Nowy64|x86.Build.0 = Nowy64|x64
 		{E307619A-55B4-474D-93AD-F8405B6FD860}.Release|x64.ActiveCfg = Release|x64
 		{E307619A-55B4-474D-93AD-F8405B6FD860}.Release|x64.Build.0 = Release|x64
 		{E307619A-55B4-474D-93AD-F8405B6FD860}.Release|x86.ActiveCfg = Release|Win32
@@ -26,6 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E307619A-55B4-474D-93AD-F8405B6FD860} = {736F2659-294E-4CAA-8053-3A3F811DD372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7303321-4629-4FA2-90E6-55615A462F15}
