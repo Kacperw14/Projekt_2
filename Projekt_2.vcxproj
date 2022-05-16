@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\List.h" />
+    <ClInclude Include="Headers\MergeSort.h" />
     <ClInclude Include="Headers\MovieNode.h" />
     <ClInclude Include="Headers\QuickSort.h" />
   </ItemGroup>

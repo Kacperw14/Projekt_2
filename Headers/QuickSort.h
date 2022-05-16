@@ -1,12 +1,10 @@
 #include<iostream>
 #include"../Headers/List.h"
 
-struct Quicksort
+struct QuickSort
 {
 
 public:
 
-
-	
 
 }; //Class

@@ -32,41 +32,43 @@ public:
 	//Funkcje umozliwiajace zmiane atrybutow.
 	void SetNext(MovieNode* newNode);
 	void SetPrevious(MovieNode* newNode);
-
-	void SetRaiting(int _rating)
+	void SetName(std::string _name) { name = _name; };
+	void SetKey(int _key)
 	{
-		if (_rating > 0) rating = _rating;
+		if (_key >= 0) key = _key;
+		else _key = 0;
+	};
+	
+	void SetRating(int _rating)
+	{
+		if (_rating >= 0) rating = _rating;
 		else rating = 0;
 	};
+	
 	void SwapData(MovieNode* _node)
 	{
 		MovieNode holder = _node;
 
-		//	_node = new MovieNode(name, key, rating, previous, next);
-		_node->SetPrevious(previous);
+		_node->SetName(name);
+		_node->SetKey(key);
+		_node->SetRating(rating);
+
+		name = holder.GetName();
+		key = holder.GetKey();
+		rating = holder.GetRating();
+
+
+
+		/*_node->SetPrevious(previous);
 		_node->SetNext(next);
 		next->SetPrevious(_node);
 		previous->SetNext(_node);
 
-
-		//name = holder->GetName();
-		//key = holder->GetKey();
-		//rating = holder->GetRating();
 		previous = holder.GetPrevious();
 		holder.GetPrevious()->SetNext(this);
 		next = holder.GetNext();
-		holder.GetNext()->SetPrevious(this);
+		holder.GetNext()->SetPrevious(this);*/
 
-		//_node->SetNext(next);
-		//_node->SetPrevious(previous);
-		//// _node->GetPrevious()->SetNext();
-		//next->SetPrevious(_node);
-		//previous->SetNext(_node);
-
-		//this->SetNext(holder->next);
-		//this->SetPrevious(holder->previous);
-
-		//delete holder;
 	};
 
 
