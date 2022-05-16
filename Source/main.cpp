@@ -30,18 +30,15 @@ int main()
 	Q.AddAtEnd(new MovieNode("f", 6, 6));
 	
 	Q.PrintList();
-	cout << endl << QuickSort::partition(Q.First(), Q.Last())->GetName() << endl;
-	//cout <<endl<< MergeSort::Sort(Q.First())->GetName()<<endl;
+	QuickSort::Sort(Q.First(), Q.Last());
+	cout << endl  << endl;
 	Q.PrintList();
-	////Q.First()->SwapData(Q.Last());
-	//Q.Last()->SwapData(Q.First());
-	
 
 	if (file.is_open())
 	{
 		//3892
 		// 1010293                             Wszystkie dane
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < 10000; i++)
 			//while (file.peek() != EOF)
 		{
 			//wczytanie "numer"
@@ -109,13 +106,15 @@ int main()
 	else cout << "Plik nie jest otwarty.";
 	file.close();
 
+	QuickSort::Sort(L.First(), L.Last());
+
 	chrono::steady_clock::time_point TimerEnd = chrono::high_resolution_clock::now();
 	chrono::duration<float> ExTime = TimerEnd - TimerStart;
 	cout << "Execution time: " << ExTime.count() << endl;
 
 	//L.PrintList();
 	
-	//cout << L.Last()->GetKey() << " " << L.Last()->GetName() << endl << L.Last()->GetRating() << endl;
+	cout << L.Last()->GetKey() << " " << L.Last()->GetName() << endl << L.Last()->GetRating() << endl;
 	//cout << L.First()->GetKey() << " " << L.First()->GetName() << endl << L.First()->GetRating() << endl;
 
 	return 0;
