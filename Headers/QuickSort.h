@@ -6,32 +6,32 @@ struct QuickSort
 
 public:
 
-	static MovieNode* Partition(MovieNode* first, MovieNode* last)
+	static MovieNode* Partition(MovieNode* first, MovieNode* last)  //funkcja dzielaca liste na mniejsze czesci
 	{
-		int pivot = last->GetRating();  
+		int pivot = last->GetRating();   //przedzialka ustawiona jako ostatnim elementem
 
-		MovieNode* i = first->GetPrevious();
+		MovieNode* help = first->GetPrevious();
 
-		for (MovieNode* j = first; j != last; j = j->GetNext())
+		for (MovieNode* i = first; i != last; i = i->GetNext()) //petla laczaca 
 		{
-			if (j->GetRating() <= pivot)
+			if (i->GetRating() <= pivot)  //jesli wartosc mniejsza rowna przedzialce zamieniamy go z pierwszy elementem 
 			{
-				i = (i == nullptr) ? first : i->GetNext();
-				i->SwapData(j);
+				help = help->GetNext();
+				help->SwapData(i);            //zamiana za pomoca funkcji napisanej w List.h
 			}
 		}
-		i = (i == nullptr) ? first : i->GetNext();
-		i->SwapData(last);
-		return i;
+		help = help->GetNext();
+		help->SwapData(last);               //zamiana z ostatnim elementem, nasza przedzialka
+		return help;
 	}
 
 	static void Sort(MovieNode* first, MovieNode* last)
 	{
-		if (last != NULL && first != last && first != last->GetNext())
-		{
-			MovieNode* p = Partition(first, last);
-			Sort(first, p->GetPrevious());
-			Sort(p->GetNext(), last);
+		if (last != nullptr && first != last && first != last->GetNext())//funckja konczy dzialanie gdy ostatni element jest null, 
+		{												//lewy i prawy wskaŸnik spotkaj¹ siê, lub lewy wyprzedzi prawy wskaznik
+			MovieNode* p = Partition(first, last); //ustalenie przedzialki
+			Sort(first, p->GetPrevious());			//rekurencyjne wywolanie funkcji dla argumentow przed
+			Sort(p->GetNext(), last);				// i za przedzialka
 		}
 	}
 

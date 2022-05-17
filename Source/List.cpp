@@ -9,8 +9,37 @@ List<T>::List()
 	header->SetNext(trailer);
 }
 
+
+template<typename T>
+void List<T>::operator=(List<T>* _lista)
+{
+	//std::cout << "Jestem" << std::endl;
+	ClearList();
+	//this + _lista;
+	//T* head = _lista->First();
+	for (T* head = _lista->First(); head != _lista->Last()->GetNext(); head = head->GetNext())
+	{
+		AddAtEnd(head); // << head->GetName() 
+	}
+}
+
+template<typename T>
+void List<T>::operator+(List<T>* _lista)
+{
+	//std::cout << "Jestem" << std::endl;
+	//ClearList();
+	//T* head = _lista->First();
+	//for (int i = 0; i < _lista->Size(); i++)
+	//{
+	for (T* head = _lista->First(); head != _lista->Last()->GetNext(); head = head->GetNext())
+	{
+		AddAtEnd(head); // << head->GetName() 
+	//	head = head->GetNext();
+	}
+}
+
 template <typename T>
-const bool& List<T>::IsEmpty() const
+const bool List<T>::IsEmpty() const
 {
 	if (header->GetNext() == trailer)
 	{
@@ -38,15 +67,15 @@ int List<T>::Size() const
 
 
 template <typename T>
-T* List<T>::AtIndex(const int& _key) const
+T* List<T>::AtIndex(const int _index) const
 {
-	if (IsEmpty() || _key <= 0)	throw "Index musi istniec";   //Aby zapobiec probie dostepu do nieobslugiwanej pamieci uzyto wyjatku
+	if (IsEmpty() || _index < 0)	throw "Index musi istniec";   //Aby zapobiec probie dostepu do nieobslugiwanej pamieci uzyto wyjatku
 	else
 	{
 		T* head = header->GetNext();						  //Nie liczymy header'a, jesli IsEmpty != true to header->GetNext() istnieje.
 		for (int i = 0; i < Size(); i++)
 		{
-			if (head->GetKey() == _key) return head;
+			if (head->GetKey() == _index) return head;
 			else head = head->GetNext();
 		}
 		std::cout << "Funkcja \"AtIndex\":Nie ma takiego indexu: " << std::endl;  //W przypadku braku wybranego indeksu odsylany jest nullptr.
@@ -55,7 +84,24 @@ T* List<T>::AtIndex(const int& _key) const
 }
 
 template <typename T>
-const int& List<T> ::IndexOf(const std::string& mess) const
+T* List<T>::AtRating(const int _rating) const
+{
+	if (IsEmpty() || _rating < 0)	throw "Index musi istniec";   //Aby zapobiec probie dostepu do nieobslugiwanej pamieci uzyto wyjatku
+	else
+	{
+		T* head = header->GetNext();						  //Nie liczymy header'a, jesli IsEmpty != true to header->GetNext() istnieje.
+		for (int i = 0; i < Size(); i++)
+		{
+			if (head->GetRating() == _rating) return head;
+			else head = head->GetNext();
+		}
+		std::cout << "Funkcja \"AtIndex\":Nie ma takiego indexu: " << std::endl;  //W przypadku braku wybranego indeksu odsylany jest nullptr.
+		return nullptr;
+	}
+}
+
+template <typename T>
+const int& List<T>::IndexOf(const std::string mess) const
 {
 	if (IsEmpty()) return 0;
 	else
@@ -70,29 +116,6 @@ const int& List<T> ::IndexOf(const std::string& mess) const
 	}
 }
 
-//Metoda pozwala na symulacje odbioru wiadomosci.
-template<typename T>
-void List<T>::ReceiveMessage(List _lista)
-{
-	if (_lista.IsEmpty()) std::cout << "Funkcja \"ReceiveMessage\": Lista jest pusta" << std::endl;
-	else
-	{
-		for (T* i = _lista.First(); i != _lista.Last(); i = i->GetNext())   //Petla z iteratorem przyjmujacym postac wezla.
-		{
-			Insert(i);								//Metoda zarowno dodaje jak i segreguje elementy, wiec przedstawiona metoda przesyla posegregowana wiadomosc
-		}
-		Insert(_lista.Last());      //Petla nie dodaje ostatniego elementu.
-
-	}
-}
-
-template <typename T>
-void List<T>::AddAtEnd(std::string mess)
-{
-	T* newNode = new T(mess, trailer->GetPrevious()->GetKey(), trailer->GetPrevious()->GetRating(), trailer->GetPrevious(), trailer); //Uzycie konstruktora optymalizuje kod.
-	trailer->GetPrevious()->SetNext(newNode);             //Ustawienie wszystkich polaczen niezbednych do wzajemnego funkcjonowania elementow.
-	trailer->SetPrevious(newNode);
-}
 
 template <typename T>
 void List<T>::AddAtEnd(const T* _node)
@@ -101,14 +124,6 @@ void List<T>::AddAtEnd(const T* _node)
 	trailer->GetPrevious()->SetNext(newNode);
 	trailer->SetPrevious(newNode);
 }
-
-//template <typename T>
-//void List<T>::AddAtEnd(const T* _node)
-//{
-//	T* newNode = new T(_node->GetName(), _node->GetKey(), _node->GetRating(), trailer->GetPrevious(), trailer);
-//	trailer->GetPrevious()->SetNext(newNode);
-//	trailer->SetPrevious(newNode);
-//}
 
 template <typename T>
 void List<T>::AddAfter(T* afterMe, T* _node)
@@ -173,27 +188,11 @@ void List<T>::PrintList() const
 		{
 			head = head->GetNext();
 			std::cout << head->GetName() << " (nr wiadomosci: " << head->GetKey() << ")" 
-				<< std::endl << " (rating: " << head->GetRating() << ")"<< std::endl;
+				<< " (rating: " << head->GetRating() << ")"<< std::endl;
 		}
 	}
 }
 
-//Metoda pomocnicza drukujaca zawartosc listy jako spojna wiadomosc.
-template <typename T>
-void List<T>::PrintMessage() const
-{
-	if (IsEmpty()) std::cout << "Funkcja \"PrintMessage\": Lista jest pusta" << std::endl;
-	else
-	{
-		T* head = header;
-		for (int i = 0; i < Size(); i++)
-		{
-			head = head->GetNext();
-			std::cout << head->GetName();
-		}
-		std::cout << std::endl;
-	}
-}
 //Metoda pomocnicza wyswietlajaca minimalny indeks znajdujacy sie w liscie.
 template<typename T>
 const int List<T>::Min() const

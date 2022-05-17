@@ -36,6 +36,7 @@
     <ClInclude Include="Headers\List.h" />
     <ClInclude Include="Headers\MergeSort.h" />
     <ClInclude Include="Headers\MovieNode.h" />
+    <ClInclude Include="Headers\qs.h" />
     <ClInclude Include="Headers\QuickSort.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -198,6 +199,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/analyze:stacksize 1600000620 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

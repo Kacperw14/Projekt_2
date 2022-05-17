@@ -44,11 +44,12 @@ MovieNode::MovieNode(MovieNode* newNode)
 	previous = newNode->GetPrevious();
 }
 
-MovieNode::~MovieNode()
-{
-	next = nullptr;
-	previous = nullptr;
-}
+//MovieNode::~MovieNode()
+//{
+//	next = nullptr;
+//	previous = nullptr;
+//}
+
 const std::string MovieNode::GetName() const
 {
 	if (this == nullptr) return "0";
@@ -88,6 +89,31 @@ void MovieNode::SetPrevious(MovieNode* newNode)
 {
 	if (this == nullptr)  std::cout << "Funkcja \"SetPrevious:\": otrzymala nullptr" << std::endl;
 	else previous = newNode;
+}
+
+void MovieNode::SetKey(int _key)
+{
+	if (_key >= 0) key = _key;
+	else _key = 0;
+}
+
+void MovieNode::SetRating(int _rating)
+{
+	if (_rating >= 0) rating = _rating;
+	else rating = 0;
+}
+
+void MovieNode::SwapData(MovieNode* _node)
+{
+	MovieNode* holder = _node;
+
+	_node->SetName(name);
+	_node->SetKey(key);
+	_node->SetRating(rating);
+
+	name = holder->GetName();
+	key = holder->GetKey();
+	rating = holder->GetRating();
 }
 
 
