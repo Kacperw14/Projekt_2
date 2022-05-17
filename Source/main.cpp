@@ -7,12 +7,14 @@
 #include"../Headers/List.h"
 #include"../Headers/MergeSort.h"
 #include"../Headers/QuickSort.h"
+#include"../Headers/BucketSort.h"
 
 using namespace std;
 int main()
 {
 	chrono::steady_clock::time_point TimerStart = chrono::high_resolution_clock::now();
-	List<MovieNode> L, Q;
+	List<MovieNode> L, P;
+	List<MovieNode>* Q = new List<MovieNode>();
 	string name;
 	int number = 0;
 	int  rating = 0;
@@ -21,29 +23,31 @@ int main()
 	//file.open("1.txt");
 	string help;
 
-	Q.AddAtEnd(new MovieNode("a", 1, 1));
-	Q.AddAtEnd(new MovieNode("b", 2, 2));
-	Q.AddAtEnd(new MovieNode("c", 3, 3));
-	Q.AddAtEnd(new MovieNode("d", 4, 4));
-	//Q.AddAtEnd(new MovieNode("f", 6, 6));
-	/*Q.AddAtEnd(new MovieNode("e", 5, 5));
-	Q.AddAtEnd(new MovieNode("g", 7, 7));*/
-	
-	Q.PrintList();
-	//MergeSort::Sort(Q.First(), Q.Last());
+	Q->AddAtEnd(new MovieNode("a", 1, 1));
+	Q->AddAtEnd(new MovieNode("d", 4, 2));
+	Q->AddAtEnd(new MovieNode("b", 2, 2));
+	Q->AddAtEnd(new MovieNode("c", 3, 2));
+	//Q->AddAtEnd(new MovieNode("f", 6, 6));
+	/*Q->AddAtEnd(new MovieNode("e", 5, 5));
+	Q->AddAtEnd(new MovieNode("g", 7, 7));*/
+	/*P.AddAtEnd(new MovieNode("f", 6, 6));
+	P.Bind(Q);
+	P.PrintList();*/
+	//Q->PrintList();
 	cout << endl  << endl;
-	MergeSort::Split(&Q)->PrintList();//.PrintList();
-	//->PrintList();
+	//IntroSort::BucketSort(Q);
+	//MergeSort::mergeSort(Q)->PrintList();
+	//MergeSort::Split(Q)->PrintList();
 	//MergeSort::Sort(Q.First())->GetName();
-	cout << endl << endl;
-	Q.PrintList();
+	//cout << endl << endl;
+	//Q->PrintList();
 	cout << endl;
 
 	if (file.is_open())
 	{
 		//3892
 		// 1010293                             Wszystkie dane
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < 100; i++)
 			//while (file.peek() != EOF)
 		{
 			//wczytanie "numer"
@@ -112,7 +116,7 @@ int main()
 	file.close();
 
 	//QuickSort::Sort(L.First(), L.Last());
-
+	BucketSort::Sort(&L);
 	chrono::steady_clock::time_point TimerEnd = chrono::high_resolution_clock::now();
 	chrono::duration<float> ExTime = TimerEnd - TimerStart;
 	cout << "Execution time: " << ExTime.count() << endl;

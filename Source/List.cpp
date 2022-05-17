@@ -20,7 +20,7 @@ const bool& List<T>::IsEmpty() const
 }
 
 template <typename T>
-const int& List<T>::Size() const
+int List<T>::Size() const
 {
 	if (IsEmpty()) return 0;
 	else
@@ -102,6 +102,14 @@ void List<T>::AddAtEnd(const T* _node)
 	trailer->SetPrevious(newNode);
 }
 
+//template <typename T>
+//void List<T>::AddAtEnd(const T* _node)
+//{
+//	T* newNode = new T(_node->GetName(), _node->GetKey(), _node->GetRating(), trailer->GetPrevious(), trailer);
+//	trailer->GetPrevious()->SetNext(newNode);
+//	trailer->SetPrevious(newNode);
+//}
+
 template <typename T>
 void List<T>::AddAfter(T* afterMe, T* _node)
 {
@@ -112,7 +120,7 @@ void List<T>::AddAfter(T* afterMe, T* _node)
 		afterMe->GetNext()->SetPrevious(newNode);
 		afterMe->SetNext(newNode);
 	}
-	else std::cout<< "Funkcja \"AddAfter\": Nale¿y podaæ element poprzeczajacy ni¿ nulltr";
+	else std::cout<< "Funkcja \"AddAfter\": Nale¿y podaæ element inny ni¿ nulltr";
 }
 
 template<typename T>
@@ -164,7 +172,8 @@ void List<T>::PrintList() const
 		for (int i = 0; i < Size(); i++)
 		{
 			head = head->GetNext();
-			std::cout << head->GetName() << " (nr wiadomosci: " << head->GetKey() << ")" << std::endl;
+			std::cout << head->GetName() << " (nr wiadomosci: " << head->GetKey() << ")" 
+				<< std::endl << " (rating: " << head->GetRating() << ")"<< std::endl;
 		}
 	}
 }

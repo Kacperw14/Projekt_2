@@ -38,7 +38,7 @@
     <ClInclude Include="Headers\MergeSort.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\IntroSort.h">
+    <ClInclude Include="Headers\BucketSort.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
