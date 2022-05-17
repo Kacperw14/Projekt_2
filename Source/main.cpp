@@ -15,14 +15,12 @@ using namespace std;
 int main()
 {
 	bool flaga = false;
-	int num = 1000000;
+	int num = 0;
 	List<MovieNode> L;
-	List<MovieNode>* Q = new List<MovieNode>();
 	string name;
 	int number = 0;
 	int  rating = 0;
 	ifstream file;
-
 	string help;
 	char choice = 'm';
 
@@ -51,8 +49,7 @@ int main()
 			for (MovieNode* N = L.First(); N != L.Last()->GetNext(); N = N->GetNext())
 			{
 				srednia += N->GetRating();
-				if (++iter <= (size / 2)) M = N;//= M->GetNext();
-				//cout << M->GetRating()<<endl;
+				if (++iter <= (size / 2)) M = N;
 			}
 			if (size % 2 == 0) cout << "Mediana: " << (float)(M->GetRating() + M->GetPrevious()->GetRating()) / 2 << endl;
 			else cout << "Mediana: " << M->GetRating() << endl;
@@ -167,14 +164,12 @@ int main()
 			int w; //wybor druku
 			cout << "Wybierz czy wydrukowac liste: nr \'1\', czy tablice: nr \'2\' (tylko dla merge sort) ";
 			cin >> w;
-			if(w == 1) L.PrintList();
+			if (w == 1) L.PrintList();
 			else if (2)
 			{
 				PrintArray(arr, num / 2);
 				cout << endl;
 			}
-			
-			//else cout << "Dane nalezy wczytac \'w\' przed kazdym uzyciem algorytmu sortowania" << endl;
 		}break;
 		default:
 		{
@@ -183,44 +178,8 @@ int main()
 		}
 		break;
 		}
-		cin >> choice;      //Wybor opcji.s
+		cin >> choice;      //Wybor opcji
 	}
-
-
-	//PrintArray(arr, num / 2);
-
-
-	//int arr[] = { 12, 11, 13, 5, 6, 7 };
-	//int arr_size = sizeof(arr) / sizeof(arr[0]);
-	//MergeSort(arr, 0, num/2 - 1);
-	//cout << "\nSorted array is \n";
-	//PrintArray(arr, num/2);
-
-	//L.PrintList();
-	//MergeSort::MergeSort(&L);
-	//QuickSort::Sort(L.First(), L.Last());
-	//BucketSort::Sort(&L);
-
-
-	//L.PrintList();
-
-	//MovieNode* M = L.First();
-	//int size = L.Size();
-	//int iter = 0;
-	//float srednia = 0;
-	//for (MovieNode* N = L.First(); N != L.Last()->GetNext(); N = N->GetNext())
-	//{
-	//	srednia += N->GetRating();
-	//	if (++iter <= (size / 2)) M = N;//= M->GetNext();
-	//	//cout << M->GetRating()<<endl;
-	//}
-	//if (size % 2 == 0) cout << "Mediana: " << (float)(M->GetRating() + M->GetPrevious()->GetRating()) / 2 << endl;
-	//else cout << "Mediana: " << M->GetRating()<< endl;
-	//
-	//cout <<"Srednia: " << (srednia / L.Size()) << endl;
-	//cout << L.Last()->GetKey() << " " << L.Last()->GetName() << endl << L.Last()->GetRating() << endl;
-	//cout << L.First()->GetKey() << " " << L.First()->GetName() << endl << L.First()->GetRating() << endl;
-
 	return 0;
 } //main
 

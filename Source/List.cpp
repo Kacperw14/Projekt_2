@@ -13,28 +13,19 @@ List<T>::List()
 template<typename T>
 void List<T>::operator=(List<T>* _lista)
 {
-	//std::cout << "Jestem" << std::endl;
 	ClearList();
-	//this + _lista;
-	//T* head = _lista->First();
 	for (T* head = _lista->First(); head != _lista->Last()->GetNext(); head = head->GetNext())
 	{
-		AddAtEnd(head); // << head->GetName() 
+		AddAtEnd(head);
 	}
 }
 
 template<typename T>
 void List<T>::operator+(List<T>* _lista)
 {
-	//std::cout << "Jestem" << std::endl;
-	//ClearList();
-	//T* head = _lista->First();
-	//for (int i = 0; i < _lista->Size(); i++)
-	//{
 	for (T* head = _lista->First(); head != _lista->Last()->GetNext(); head = head->GetNext())
 	{
-		AddAtEnd(head); // << head->GetName() 
-	//	head = head->GetNext();
+		AddAtEnd(head); 
 	}
 }
 

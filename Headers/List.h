@@ -19,9 +19,6 @@ public:
 	void operator= (List<T>* _lista);
 	void operator+ (List<T>* _lista);
 	
-	//Destruktor
-	~List() { delete header; delete trailer; };
-	//
 	// Podstaowe funkcje dla priorytetowej listy dwukierunkowej:
 	const bool IsEmpty() const;
 	int Size() const;
