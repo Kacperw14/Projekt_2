@@ -16,22 +16,16 @@ public:
 	//Konstruktor kopiujacy
 	List(const List<T>& _lista) : header(_lista.header), trailer(_lista.trailer) {};
 
-	void operator= (List<T>* _lista);
 	void operator+ (List<T>* _lista);
 	
 	// Podstaowe funkcje dla priorytetowej listy dwukierunkowej:
 	const bool IsEmpty() const;
 	int Size() const;
-	T* AtIndex(const int _index) const;
-	T* AtRating(const int _rating) const;
-	const int& IndexOf(const std::string mess) const;
 	T* Last() const { return trailer->GetPrevious(); };
 	T* First() const { return header->GetNext(); };
 	
 	//Metody dodajace
-	void AddAfter(T* afterMe, T* newNode);
 	void AddAtEnd(const T* _node);
-	void Insert(T* _node);
 	//
 
 	//Metody usuwajace
@@ -41,8 +35,6 @@ public:
 
 	//Dodatkowe przydatne metody
 	void PrintList() const;
-	const int Min() const;
-	const int Max() const;
 	//
 
 	//Metody umozliwiajace dostep do atrybutow. Dostep tylko do odczytu!

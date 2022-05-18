@@ -44,12 +44,6 @@ MovieNode::MovieNode(MovieNode* newNode)
 	previous = newNode->GetPrevious();
 }
 
-//MovieNode::~MovieNode()
-//{
-//	next = nullptr;
-//	previous = nullptr;
-//}
-
 const std::string MovieNode::GetName() const
 {
 	if (this == nullptr) return "0";
@@ -105,8 +99,8 @@ void MovieNode::SetRating(int _rating)
 
 void MovieNode::SwapData(MovieNode* _node)
 {
-	MovieNode* holder = _node;
-
+	MovieNode* holder = new MovieNode(_node->GetName(),_node->GetKey(), _node->GetRating());// = _node;
+	//*holder = _node;
 	_node->SetName(name);
 	_node->SetKey(key);
 	_node->SetRating(rating);
@@ -114,6 +108,7 @@ void MovieNode::SwapData(MovieNode* _node)
 	name = holder->GetName();
 	key = holder->GetKey();
 	rating = holder->GetRating();
+	delete holder;
 }
 
 

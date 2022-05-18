@@ -17,12 +17,26 @@ int main()
 	bool flaga = false;
 	int num = 0;
 	List<MovieNode> L;
+	List<MovieNode>* Q = new List<MovieNode>();
 	string name;
 	int number = 0;
 	int  rating = 0;
 	ifstream file;
 	string help;
 	char choice = 'm';
+
+
+	/*Q->AddAtEnd(new MovieNode("a",1,1));
+	Q->AddAtEnd(new MovieNode("c",3,3));
+	Q->AddAtEnd(new MovieNode("b",2,2));
+	Q->AddAtEnd(new MovieNode("d",4,4));*/
+
+	//QuickSort::Sort(Q->First(), Q->Last());//, Q.Last());
+
+
+	Q->PrintList();
+	
+
 
 	while (choice != 'k')
 	{
@@ -165,7 +179,7 @@ int main()
 			cout << "Wybierz czy wydrukowac liste: nr \'1\', czy tablice: nr \'2\' (tylko dla merge sort) ";
 			cin >> w;
 			if (w == 1) L.PrintList();
-			else if (2)
+			else if (w == 2)
 			{
 				PrintArray(arr, num / 2);
 				cout << endl;

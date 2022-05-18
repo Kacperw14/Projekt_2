@@ -1,0 +1,1334 @@
+﻿Rozpoczęto kompilację...
+1>------ Kontrola aktualności: Projekt: Projekt_2, Konfiguracja: Release x64 ------
+1>Projekt jest nieaktualny: ostatnia kompilacja nie powiodła się.
+1>------ Kompilacja rozpoczęta: Projekt: Projekt_2, Konfiguracja: Release x64 ------
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Próba zaimportowania elementu C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props przy użyciu ścieżki rozszerzeń C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
+1>Ponowne przypisanie właściwości: $(MSBuildProjectExtensionsPath)=„D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\” (poprzednia wartość: „obj\”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (57,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Próba zaimportowania elementu C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* przy użyciu ścieżki rozszerzeń C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Właściwość „Configuration” jest właściwością globalną i nie może być modyfikowana.
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Właściwość „Configuration” jest właściwością globalną i nie może być modyfikowana.
+1>Ponowne przypisanie właściwości: $(PlatformToolset)=„v100” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Platforms\x64\Platform.Default.props (29,5)
+1>Właściwość „LangID” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionDir” jest właściwością globalną i nie może być modyfikowana.
+1>Ponowne przypisanie właściwości: $(PlatformToolset)=„v142” (poprzednia wartość: „v100”) w D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Projekt_2.vcxproj (84,5)
+1>Ponowne przypisanie właściwości: $(WholeProgramOptimization)=„true” (poprzednia wartość: „false”) w D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Projekt_2.vcxproj (85,5)
+1>Ponowne przypisanie właściwości: $(CharacterSet)=„Unicode” (poprzednia wartość: „NotSet”) w D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Projekt_2.vcxproj (86,5)
+1>Ponowne przypisanie właściwości: $(WindowsSDK_ExecutablePath_x86)=„C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools” (poprzednia wartość: „C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (199,5)
+1>Ponowne przypisanie właściwości: $(WindowsSDK_ExecutablePath_x64)=„C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64” (poprzednia wartość: „C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (200,5)
+1>Ponowne przypisanie właściwości: $(TargetExt)=„.exe” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (28,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (94,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (95,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (96,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (97,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (98,5)
+1>Ponowne przypisanie właściwości: $(VC_ExecutablePath_Loc)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;;;;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\arm\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\1045;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\1045;;;;;;;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (99,5)
+1>Ponowne przypisanie właściwości: $(RemoteDebuggerDeployCppRuntime)=„true” (poprzednia wartość: „false”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (150,5)
+1>Ponowne przypisanie właściwości: $(MultiProcMaxCount)=„0” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (207,5)
+1>Ponowne przypisanie właściwości: $(EspXtensions)=„EnumIndex.dll;CppCoreCheck.dll;” (poprzednia wartość: „CppCoreCheck.dll;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CodeAnalysis.Extensions.props (21,5)
+1>Ponowne przypisanie właściwości: $(EspXtensions)=„HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;” (poprzednia wartość: „EnumIndex.dll;CppCoreCheck.dll;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CodeAnalysis.Extensions.props (24,5)
+1>Ponowne przypisanie właściwości: $(EspXtensions)=„VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;” (poprzednia wartość: „HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CodeAnalysis.Extensions.props (27,5)
+1>Ponowne przypisanie właściwości: $(EspXtensions)=„ConcurrencyCheck.dll;VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;” (poprzednia wartość: „VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CodeAnalysis.Extensions.props (32,5)
+1>Ponowne przypisanie właściwości: $(MsvcAnalysisToolsPath)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Analysis.props (29,5)
+1>Ponowne przypisanie właściwości: $(_PropertySheetDisplayName)=„Unicode Support” (poprzednia wartość: „Core Windows Libraries”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.unicodesupport.props (15,5)
+1>Ponowne przypisanie właściwości: $(_PropertySheetDisplayName)=„Application” (poprzednia wartość: „Unicode Support”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Application.props (15,5)
+1>Ponowne przypisanie właściwości: $(_PropertySheetDisplayName)=„Whole Program Optimization” (poprzednia wartość: „Application”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WholeProgramOptimization.props (15,5)
+1>Właściwość „SolutionExt” jest właściwością globalną i nie może być modyfikowana.
+1>Ponowne przypisanie właściwości: $(ExtensionsToDeleteOnClean)=„*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.exe.manifest;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.tlb;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.pdb;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.exe;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.bsc;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.ilk;D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.exe.intermediate.manifest;” (poprzednia wartość: „*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Właściwość „Configuration” jest właściwością globalną i nie może być modyfikowana.
+1>Ponowne przypisanie właściwości: $(_DocumentationFileProduced)=„false” (poprzednia wartość: „true”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (186,5)
+1>Właściwość „DevEnvDir” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionName” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionFileName” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionPath” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionDir” jest właściwością globalną i nie może być modyfikowana.
+1>Właściwość „SolutionExt” jest właściwością globalną i nie może być modyfikowana.
+1>Ponowne przypisanie właściwości: $(AutoUnifyAssemblyReferences)=„false” (poprzednia wartość: „true”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (369,5)
+1>Ponowne przypisanie właściwości: $(ProcessorArchitecture)=„amd64” (poprzednia wartość: „x64”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (506,5)
+1>Ponowne przypisanie właściwości: $(DelaySign)=„” (poprzednia wartość: „false”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (558,5)
+1>Ponowne przypisanie właściwości: $(CommonXamlResourcesDirectory)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\en-US\” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\pl-PL\”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (657,5)
+1>Ponowne przypisanie właściwości: $(_SGenGenerateSerializationAssembliesConfig)=„Auto” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (3612,5)
+1>Ponowne przypisanie właściwości: $(_CodeAnalysisTreatWarningsAsErrors)=„false” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (125,5)
+1>Ponowne przypisanie właściwości: $(CAExcludePath)=„C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;” (poprzednia wartość: „C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (235,5)
+1>Ponowne przypisanie właściwości: $(CAExcludePath)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;” (poprzednia wartość: „C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (236,5)
+1>Ponowne przypisanie właściwości: $(CAExcludePath)=„C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;” (poprzednia wartość: „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (237,5)
+1>Ponowne przypisanie właściwości: $(PrepareForBuildDependsOn)=„;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables” (poprzednia wartość: „;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (240,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ponowne przypisanie właściwości: $(ResolveReferencesDependsOn)=„
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ” (poprzednia wartość: „
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets (75,5)
+1>Ponowne przypisanie właściwości: $(PrepareResourceNamesDependsOn)=„
+1>                    AssignWinFXEmbeddedResource;
+1>                    
+1>      AssignTargetPaths;
+1>      SplitResourcesByCulture;
+1>      CreateManifestResourceNames;
+1>      CreateCustomManifestResourceNames
+1>    
+1>      ” (poprzednia wartość: „
+1>      AssignTargetPaths;
+1>      SplitResourcesByCulture;
+1>      CreateManifestResourceNames;
+1>      CreateCustomManifestResourceNames
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (97,7)
+1>Ponowne przypisanie właściwości: $(PrepareResourcesDependsOn)=„
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>      ” (poprzednia wartość: „
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (108,7)
+1>Ponowne przypisanie właściwości: $(CompileDependsOn)=„
+1>        
+1>      ResolveReferences;
+1>      ResolveKeySource;
+1>      SetWin32ManifestProperties;
+1>      FindReferenceAssembliesForReferences;
+1>      _GenerateCompileInputs;
+1>      BeforeCompile;
+1>      _TimeStampBeforeCompile;
+1>      _GenerateCompileDependencyCache;
+1>      CoreCompile;
+1>      _TimeStampAfterCompile;
+1>      AfterCompile;
+1>    ;
+1>        _AfterCompileWinFXInternal
+1>    ” (poprzednia wartość: „
+1>      ResolveReferences;
+1>      ResolveKeySource;
+1>      SetWin32ManifestProperties;
+1>      FindReferenceAssembliesForReferences;
+1>      _GenerateCompileInputs;
+1>      BeforeCompile;
+1>      _TimeStampBeforeCompile;
+1>      _GenerateCompileDependencyCache;
+1>      CoreCompile;
+1>      _TimeStampAfterCompile;
+1>      AfterCompile;
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (184,5)
+1>Ponowne przypisanie właściwości: $(PublishBuildDependsOn)=„
+1>            BuildOnlySettings;
+1>            PrepareForBuild;
+1>            ResolveReferences;
+1>            PrepareResources;
+1>            ResolveKeySource;
+1>            PrepareResourcesForSatelliteAssemblies;
+1>            GenerateSerializationAssemblies;
+1>            CreateSatelliteAssemblies;
+1>        ” (poprzednia wartość: „
+1>      BuildOnlySettings;
+1>      PrepareForBuild;
+1>      ResolveReferences;
+1>      PrepareResources;
+1>      ResolveKeySource;
+1>      GenerateSerializationAssemblies;
+1>      CreateSatelliteAssemblies;
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (813,9)
+1>Ponowne przypisanie właściwości: $(BuildDependsOn)=„
+1>      EntityDeploy;
+1>      
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    
+1>    ” (poprzednia wartość: „
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (35,5)
+1>Ponowne przypisanie właściwości: $(CleanDependsOn)=„
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ” (poprzednia wartość: „
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (42,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ponowne przypisanie właściwości: $(PrepareResourcesDependsOn)=„
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    ” (poprzednia wartość: „
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>      ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+1>Ponowne przypisanie właściwości: $(CoreCompileDependsOn)=„
+1>        DesignTimeXamlMarkupCompilation;
+1>        
+1>          DesignTimeMarkupCompilation;
+1>          
+1>      
+1>    ” (poprzednia wartość: „
+1>          DesignTimeMarkupCompilation;
+1>          
+1>      ”) w C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (76,5)
+1>Ponowne przypisanie właściwości: $(ResolveReferencesDependsOn)=„
+1>      
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ;
+1>      ResolveTestReferences
+1>    ” (poprzednia wartość: „
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Próba zaimportowania elementu C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\* przy użyciu ścieżki rozszerzeń C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Próba zaimportowania elementu C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\build\Microsoft.Docker.targets przy użyciu ścieżki rozszerzeń C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
+1>Ponowne przypisanie właściwości: $(ProjectLockFile)=„obj\project.assets.json” (poprzednia wartość: „D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\project.assets.json”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets (74,5)
+1>Ponowne przypisanie właściwości: $(ResolveAssemblyReferencesDependsOn)=„
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ;ResolveNuGetPackageAssets” (poprzednia wartość: „
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets (185,5)
+1>Ponowne przypisanie właściwości: $(PrepareResourcesDependsOn)=„ResolveNuGetPackageAssets;
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    ” (poprzednia wartość: „
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets (186,5)
+1>Ponowne przypisanie właściwości: $(_HandlePackageFileConflictsAfter)=„ResolveNuGetPackageAssets;ResolveNuGetPackageAssetsNonAOT” (poprzednia wartość: „ResolveNuGetPackageAssets”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets (267,5)
+1>Ścieżki wyszukiwania dla elementu $(MSBuildExtensionsPath): C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Ponowne przypisanie właściwości: $(DebugType)=„” (poprzednia wartość: „none”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (37,5)
+1>Ponowne przypisanie właściwości: $(BuildDependsOn)=„
+1>      _PrepareForBuild;
+1>      
+1>      ResolveReferences;
+1>      PrepareForBuild;
+1>      InitializeBuildStatus;
+1>      BuildGenerateSources;
+1>      BuildCompile;
+1>      BuildLink;
+1>    ;
+1>      AfterBuild;
+1>      IncrementalClean;
+1>      FinalizeBuildStatus;
+1>    ” (poprzednia wartość: „
+1>      EntityDeploy;
+1>      
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (119,5)
+1>Ponowne przypisanie właściwości: $(RebuildDependsOn)=„
+1>      _PrepareForRebuild;
+1>      
+1>      BeforeRebuild;
+1>      Clean;
+1>      Build;
+1>      AfterRebuild;
+1>    ;
+1>    ” (poprzednia wartość: „
+1>      BeforeRebuild;
+1>      Clean;
+1>      Build;
+1>      AfterRebuild;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (127,5)
+1>Ponowne przypisanie właściwości: $(CleanDependsOn)=„
+1>      _PrepareForClean;
+1>      
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ;
+1>    ” (poprzednia wartość: „
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (132,5)
+1>Ponowne przypisanie właściwości: $(BeforeBuildGenerateSourcesTargets)=„
+1>      
+1>      ;
+1>      BeforeBuildGenerateSources;
+1>    ;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      BeforeBuildGenerateSources;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (61,5)
+1>Ponowne przypisanie właściwości: $(AfterBuildGenerateSourcesTargets)=„
+1>      
+1>      ;
+1>      AfterBuildGenerateSources;
+1>    ;
+1>      AfterBuildGenerateSourcesEvent;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      AfterBuildGenerateSources;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (72,5)
+1>Ponowne przypisanie właściwości: $(BuildGenerateSourcesAction)=„_BuildGenerateSourcesAction” (poprzednia wartość: „Build”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (142,5)
+1>Ponowne przypisanie właściwości: $(BuildCompileAction)=„_BuildCompileAction” (poprzednia wartość: „Build”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (143,5)
+1>Ponowne przypisanie właściwości: $(BuildLinkAction)=„_BuildLinkAction” (poprzednia wartość: „Build”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (144,5)
+1>Ponowne przypisanie właściwości: $(GetReferenceAssemblyPathsDependsOn)=„_PrepareForReferenceResolution;
+1>        ;
+1>        GetWinFXPath
+1>    ” (poprzednia wartość: „
+1>        ;
+1>        GetWinFXPath
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (149,5)
+1>Ponowne przypisanie właściwości: $(DetermineProjectTypeTargets)=„_PrepareForReferenceResolution;
+1>      ;
+1>      AddExternalIncludDirectoriesToPaths
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      AddExternalIncludDirectoriesToPaths
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (251,5)
+1>Ponowne przypisanie właściwości: $(ResolveReferencesDependsOn)=„_PrepareForReferenceResolution;ComputeCrtSDKReference;
+1>      
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ;
+1>      ResolveTestReferences
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ;
+1>      ResolveTestReferences
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (311,5)
+1>Ponowne przypisanie właściwości: $(ResolveAssemblyReferencesDependsOn)=„_PrepareForReferenceResolution;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ;ResolveNuGetPackageAssets” (poprzednia wartość: „
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ;ResolveNuGetPackageAssets”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (312,5)
+1>Ponowne przypisanie właściwości: $(ResolveSDKReferencesDependsOn)=„_PrepareForReferenceResolution;ComputeCrtSDKReference;
+1>      GetInstalledSDKLocations
+1>    ” (poprzednia wartość: „
+1>      GetInstalledSDKLocations
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (313,5)
+1>Ponowne przypisanie właściwości: $(ComputeCompileInputsTargets)=„
+1>      
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ;
+1>      ComputeMIDLGeneratedCompileInputs;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (612,5)
+1>Ponowne przypisanie właściwości: $(ComputeLinkInputsTargets)=„
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (925,5)
+1>Ponowne przypisanie właściwości: $(GetTargetPathDependsOn)=„_PrepareForReferenceResolution;GetResolvedWinMD;” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1095,5)
+1>Ponowne przypisanie właściwości: $(ComputeCompileInputsTargets)=„
+1>      
+1>      
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ;
+1>      ComputeMIDLGeneratedCompileInputs;
+1>    ;
+1>      ComputeCLInputPDBName;
+1>      ComputeReferenceCLInput;
+1>      WarnCompileDuplicatedFilename
+1>    ” (poprzednia wartość: „
+1>      
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ;
+1>      ComputeMIDLGeneratedCompileInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1121,5)
+1>Ponowne przypisanie właściwości: $(ComputeLinkInputsTargets)=„
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ” (poprzednia wartość: „
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1173,5)
+1>Ponowne przypisanie właściwości: $(ComputeLibInputsTargets)=„
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1180,5)
+1>Ponowne przypisanie właściwości: $(ComputeImpLibInputsTargets)=„
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ” (poprzednia wartość: „
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1187,5)
+1>Ponowne przypisanie właściwości: $(ComputeLinkInputsTargets)=„
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLinkInputs;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1247,5)
+1>Ponowne przypisanie właściwości: $(ComputeLibInputsTargets)=„
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ” (poprzednia wartość: „
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1262,5)
+1>Ponowne przypisanie właściwości: $(ComputeImpLibInputsTargets)=„
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedImpLibInputs;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1277,5)
+1>Ponowne przypisanie właściwości: $(ComputeLinkInputsTargets)=„
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLinkInputs;
+1>    ;
+1>      ComputeLinkInputsFromProject;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLinkInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1308,5)
+1>Ponowne przypisanie właściwości: $(ComputeLibInputsTargets)=„
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ;
+1>      ComputeLibInputsFromProject;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1326,5)
+1>Ponowne przypisanie właściwości: $(ComputeImpLibInputsTargets)=„
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedImpLibInputs;
+1>    ;
+1>      ComputeImpLibInputsFromProject;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeRCGeneratedImpLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedImpLibInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1344,5)
+1>Ponowne przypisanie właściwości: $(ComputeLinkInputsTargets)=„
+1>      
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLinkInputs;
+1>    ;
+1>      ComputeLinkInputsFromProject;
+1>    ;
+1>      ComputeReferenceLinkInputs;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLinkInputs;
+1>    ;
+1>      ComputeManifestGeneratedLinkerInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLinkInputs;
+1>    ;
+1>      ComputeLinkInputsFromProject;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1488,5)
+1>Ponowne przypisanie właściwości: $(ComputeLibInputsTargets)=„
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ;
+1>      ComputeLibInputsFromProject;
+1>    ;
+1>      ComputeReferenceLibInputs;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ;
+1>      ComputeLibInputsFromProject;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1526,5)
+1>Ponowne przypisanie właściwości: $(ComputeLibInputsTargets)=„
+1>      ComputeLibAdditionalOptions;
+1>      
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ;
+1>      ComputeLibInputsFromProject;
+1>    ;
+1>      ComputeReferenceLibInputs;
+1>    
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      
+1>      
+1>      ;
+1>      ComputeRCGeneratedLibInputs;
+1>    ;
+1>      ComputeCustomBuildOutput;
+1>    ;
+1>      ComputeCLGeneratedLibInputs;
+1>    ;
+1>      ComputeLibInputsFromProject;
+1>    ;
+1>      ComputeReferenceLibInputs;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1583,5)
+1>Ponowne przypisanie właściwości: $(GetProjectInfoForReferenceDependsOn)=„
+1>      
+1>      ;
+1>      AddPublicIncludeDirectoriesToProjectsInfoForReference;
+1>    ;
+1>      AddPublicBMIsToProjectsInfoForReference;
+1>      AddDeployRecipeFileToProjectsInfoForReference;
+1>      AddLibrariesToProjectsInfoForReference;
+1>    ” (poprzednia wartość: „
+1>      ;
+1>      AddPublicIncludeDirectoriesToProjectsInfoForReference;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (1770,5)
+1>Ponowne przypisanie właściwości: $(DocumentationProjectOutputGroupDependsOn)=„ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles” (poprzednia wartość: „”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (2157,5)
+1>Ponowne przypisanie właściwości: $(ContentFilesProjectOutputGroupDependsOn)=„PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc” (poprzednia wartość: „PrepareForBuild;AssignTargetPaths”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets (2223,5)
+1>Ponowne przypisanie właściwości: $(ComputeCompileInputsTargets)=„
+1>      
+1>      
+1>      
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ;
+1>      ComputeMIDLGeneratedCompileInputs;
+1>    ;
+1>      ComputeCLInputPDBName;
+1>      ComputeReferenceCLInput;
+1>      WarnCompileDuplicatedFilename
+1>    ;
+1>      ;
+1>      FixupCLCompileOptions;
+1>    ” (poprzednia wartość: „
+1>      
+1>      
+1>      ;
+1>      GenerateTargetFrameworkMonikerAttribute;
+1>    ;
+1>      ComputeMIDLGeneratedCompileInputs;
+1>    ;
+1>      ComputeCLInputPDBName;
+1>      ComputeReferenceCLInput;
+1>      WarnCompileDuplicatedFilename
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (302,5)
+1>Ponowne przypisanie właściwości: $(BuildingProject)=„true” (poprzednia wartość: „false”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (1989,5)
+1>Ponowne przypisanie właściwości: $(ContentFilesProjectOutputGroupDependsOn)=„PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc;_CreateCopyFileItems;” (poprzednia wartość: „PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (2516,5)
+1>Ponowne przypisanie właściwości: $(PrepareForBuildDependsOn)=„_CheckWindowsSDKInstalled;;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables” (poprzednia wartość: „;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets (16,5)
+1>Ponowne przypisanie właściwości: $(CleanDependsOn)=„
+1>      
+1>      _PrepareForClean;
+1>      
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ;
+1>    ;
+1>      CppClean
+1>    ” (poprzednia wartość: „
+1>      _PrepareForClean;
+1>      
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets (22,5)
+1>Ponowne przypisanie właściwości: $(CppCleanDependsOn)=„
+1>      BeforeCppClean;
+1>      ;
+1>      CoreCppClean;
+1>      AfterCppClean;
+1>    ;PGInstrumentedClean” (poprzednia wartość: „
+1>      BeforeCppClean;
+1>      ;
+1>      CoreCppClean;
+1>      AfterCppClean;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets (92,5)
+1>Ponowne przypisanie właściwości: $(BuildDependsOn)=„SetTelemetryEnvironmentVariables;
+1>      _PrepareForBuild;
+1>      
+1>      ResolveReferences;
+1>      PrepareForBuild;
+1>      InitializeBuildStatus;
+1>      BuildGenerateSources;
+1>      BuildCompile;
+1>      BuildLink;
+1>    ;
+1>      AfterBuild;
+1>      IncrementalClean;
+1>      FinalizeBuildStatus;
+1>    ” (poprzednia wartość: „
+1>      _PrepareForBuild;
+1>      
+1>      ResolveReferences;
+1>      PrepareForBuild;
+1>      InitializeBuildStatus;
+1>      BuildGenerateSources;
+1>      BuildCompile;
+1>      BuildLink;
+1>    ;
+1>      AfterBuild;
+1>      IncrementalClean;
+1>      FinalizeBuildStatus;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets (540,5)
+1>Ponowne przypisanie właściwości: $(RebuildDependsOn)=„SetTelemetryEnvironmentVariables;
+1>      _PrepareForRebuild;
+1>      
+1>      BeforeRebuild;
+1>      Clean;
+1>      Build;
+1>      AfterRebuild;
+1>    ;
+1>    ” (poprzednia wartość: „
+1>      _PrepareForRebuild;
+1>      
+1>      BeforeRebuild;
+1>      Clean;
+1>      Build;
+1>      AfterRebuild;
+1>    ;
+1>    ”) w C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets (541,5)
+1>Zastępowanie elementu docelowego „GetFrameworkPaths” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GetFrameworkPaths” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets”.
+1>Zastępowanie elementu docelowego „SatelliteDllsProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „SatelliteDllsProjectOutputGroup” z projektu „C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets”.
+1>Zastępowanie elementu docelowego „GenerateTargetFrameworkMonikerAttribute” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GenerateTargetFrameworkMonikerAttribute” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets”.
+1>Zastępowanie elementu docelowego „Build” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „Build” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets”.
+1>Zastępowanie elementu docelowego „Rebuild” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „Rebuild” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets”.
+1>Zastępowanie elementu docelowego „AfterBuild” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „AfterBuild” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets”.
+1>Zastępowanie elementu docelowego „PrepareForBuild” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „PrepareForBuild” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „GetTargetPath” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GetTargetPath” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „ComputeIntermediateSatelliteAssemblies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „ComputeIntermediateSatelliteAssemblies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „ClCompile” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „ClCompile” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „ResourceCompile” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „ResourceCompile” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „Lib” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Lib” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „Link” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Link” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „AllProjectOutputGroups” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „AllProjectOutputGroups” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „BuiltProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „BuiltProjectOutputGroup” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „DebugSymbolsProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „DebugSymbolsProjectOutputGroup” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „DocumentationProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „DocumentationProjectOutputGroup” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „SourceFilesProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „SourceFilesProjectOutputGroup” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „ContentFilesProjectOutputGroup” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „ContentFilesProjectOutputGroup” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „AllProjectOutputGroupsDependencies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „AllProjectOutputGroupsDependencies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „BuiltProjectOutputGroupDependencies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „BuiltProjectOutputGroupDependencies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „DebugSymbolsProjectOutputGroupDependencies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „DebugSymbolsProjectOutputGroupDependencies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „DocumentationProjectOutputGroupDependencies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „DocumentationProjectOutputGroupDependencies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”.
+1>Zastępowanie elementu docelowego „PreBuildEvent” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „PreBuildEvent” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „PostBuildEvent” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „PostBuildEvent” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „ClCompile” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „ClCompile” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „Link” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Link” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „Lib” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Lib” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „ImpLib” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „ImpLib” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „Midl” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Midl” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „ResourceCompile” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „ResourceCompile” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „BeforeResGen” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „BeforeResGen” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „ResGen” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „ResGen” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „GenerateSatelliteAssemblies” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GenerateSatelliteAssemblies” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „Manifest” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „Manifest” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „XdcMake” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „XdcMake” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „BscMake” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets” elementem docelowym „BscMake” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „ComputeMetaGenInputs” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MetaGen.targets” elementem docelowym „ComputeMetaGenInputs” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „GetNativeManifest” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GetNativeManifest” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”.
+1>Zastępowanie elementu docelowego „GetTargetPathWithTargetPlatformMoniker” w projekcie „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets” elementem docelowym „GetTargetPathWithTargetPlatformMoniker” z projektu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets”.
+1>Kompilacja rozpoczęła się 18.05.2022 15:23:54.
+1>Kompilowanie przy użyciu wersji narzędzi „Current”.
+1>Pominięto element docelowy „EnableIntermediateOutputPathMismatchWarning” z powodu fałszywego warunku; ('$(RestoreProjectStyle)' == 'PackageReference') oszacowano jako ('' == 'PackageReference').
+1>Element docelowy _CheckForInvalidConfigurationAndPlatform:
+1>  Pominięto zadanie „Error” z powodu fałszywego warunku; ( '$(_InvalidConfigurationError)' == 'true' ) oszacowano jako ( '' == 'true' ).
+1>  Pominięto zadanie „Warning” z powodu fałszywego warunku; ( '$(_InvalidConfigurationWarning)' == 'true' ) oszacowano jako ( '' == 'true' ).
+1>  Używanie zadania „Message” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „Message”
+1>    Configuration=Release
+1>  Wykonywanie zadania „Message” zakończone.
+1>  Zadanie „Message”
+1>    Platform=x64
+1>  Wykonywanie zadania „Message” zakończone.
+1>  Pominięto zadanie „Error” z powodu fałszywego warunku; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) oszacowano jako ('D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\' != '' and !HasTrailingSlash('D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\')).
+1>  Pominięto zadanie „Error” z powodu fałszywego warunku; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) oszacowano jako ('x64\Release\' != '' and !HasTrailingSlash('x64\Release\')).
+1>  Pominięto zadanie „Error” z powodu fałszywego warunku; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) oszacowano jako ('obj\' != '' and !HasTrailingSlash('obj\')).
+1>  Pominięto zadanie „Error” z powodu fałszywego warunku; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) oszacowano jako ( 'D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\' != '' And 'D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\' != 'D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\' ).
+1>  Pominięto zadanie „Warning” z powodu fałszywego warunku; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) oszacowano jako ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\obj\' ).
+1>Pominięto element docelowy „_CheckForInvalidConfigurationAndPlatform”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy SetTelemetryEnvironmentVariables:
+1>  Używanie zadania „SetEnv” z zestawu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll”.
+1>  Zadanie „SetEnv”
+1>    VSTEL_SolutionSessionID={ADC9D156-B752-4BB5-814B-54071D19A202}
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    VSTEL_CurrentSolutionBuildID=3612793008
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    VSTEL_ProjectID={e307619a-55b4-474d-93ad-f8405b6fd860}
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>Element docelowy _PrepareForBuild:
+1>  Pominięto zadanie „CreateItem” z powodu fałszywego warunku; ('%(CustomBuild.IncludeFileToTool)'!='') oszacowano jako (''!='').
+1>Element docelowy _PrepareForReferenceResolution:
+1>  Pominięto zadanie „Message” z powodu fałszywego warunku; ('$(_REFERENCE_DEBUG)'=='true') oszacowano jako (''=='true').
+1>Pominięto element docelowy „ComputeCrtSDKReference” z powodu fałszywego warunku; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') oszacowano jako ('Source\List.cpp;Source\main.cpp;Source\MovieNode.cpp'!='' and 'false'=='true' and '' != 'false').
+1>Element docelowy BeforeResolveReferences:
+1>Element docelowy AssignProjectConfiguration:
+1>  Używanie zadania „AssignProjectConfiguration” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „AssignProjectConfiguration”
+1>  Wykonywanie zadania „AssignProjectConfiguration” zakończone.
+1>Pominięto element docelowy „AssignProjectConfiguration”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy _SplitProjectReferencesByFileExistence:
+1>  Pominięto zadanie „ResolveNonMSBuildProjectOutput” z powodu fałszywego warunku; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') oszacowano jako ('true'=='true' and ''!='').
+1>Element docelowy _AddOutputPathToGlobalPropertiesToRemove:
+1>Element docelowy _GetProjectReferenceTargetFrameworkProperties:
+1>  Używanie zadania „MSBuild” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „MSBuild”
+1>  Wykonywanie zadania „MSBuild” zakończone.
+1>  Pominięto zadanie „GetReferenceNearestTargetFrameworkTask” z powodu fałszywego warunku; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+1>                                                          And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' == 'true') oszacowano jako ('0' != '0' and '.NETFramework,Version=v4.0' != ''
+1>                                                          And 'true' == 'true').
+1>  Pominięto zadanie „GetReferenceNearestTargetFrameworkTask” z powodu fałszywego warunku; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+1>                                                          And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true') oszacowano jako ('0' != '0' and '.NETFramework,Version=v4.0' != ''
+1>                                                          And 'true' != 'true').
+1>Element docelowy PrepareProjectReferences:
+1>Pominięto element docelowy „_RemoveNameMetadataFromProjectReferenceItems” z powodu fałszywego warunku; ('@(ProjectReference)'!='') oszacowano jako (''!='').
+1>Element docelowy ResolveProjectReferences:
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') oszacowano jako ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '16.0' != '10.0' and '' != '').
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') oszacowano jako ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') oszacowano jako ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+1>  Pominięto zadanie „Warning” z powodu fałszywego warunku; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') oszacowano jako ('' != '' and '' != '').
+1>Pominięto element docelowy „FindInvalidProjectReferences” z powodu fałszywego warunku; ('$(FindInvalidProjectReferences)' == 'true') oszacowano jako ('' == 'true').
+1>Pominięto element docelowy „ResolveNativeReferences” z powodu fałszywego warunku; ('@(NativeReference)'!='') oszacowano jako (''!='').
+1>Pominięto element docelowy „_PrepareForReferenceResolution”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ResolveProjectReferences”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „FindInvalidProjectReferences” z powodu fałszywego warunku; ('$(FindInvalidProjectReferences)' == 'true') oszacowano jako ('' == 'true').
+1>Element docelowy GetFrameworkPaths:
+1>Pominięto element docelowy „_PrepareForReferenceResolution”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „GetWinFXPath” z powodu fałszywego warunku; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) oszacowano jako (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+1>Pominięto element docelowy „GetFrameworkPaths”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy GetReferenceAssemblyPaths:
+1>  Pominięto zadanie „GetReferenceAssemblyPaths” z powodu fałszywego warunku; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) oszacowano jako ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+1>Element docelowy AddExternalIncludDirectoriesToPaths:
+1>Element docelowy SetBuildDefaultEnvironmentVariables:
+1>  Zadanie „SetEnv”
+1>    PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;D:\WinAVR\bin;D:\WinAVR\utils\bin;C:\Program Files (x86)\Common Files\ArchestrA\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Python3\Scripts\;D:\Python3\;D:\Builder 6\Bin;D:\Builder 6\Projects\Bpl;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\MATLAB\runtime\win64;D:\MATLAB\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Users\Kacper\AppData\Local\Microsoft\WindowsApps;C:\Users\Kacper\.dotnet\tools;D:\Microsoft VS Code\bin;D:\MinGW\bin;;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    LIB=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Zadanie „SetEnv”
+1>    EXTERNAL_INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>Pominięto element docelowy „SetUserMacroEnvironmentVariables” z powodu fałszywego warunku; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') oszacowano jako ('' != '' and '' != 'true').
+1>Pominięto element docelowy „_PrepareForReferenceResolution”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy GetResolvedWinMD:
+1>Element docelowy _CheckWindowsSDKInstalled:
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(WindowsSDKInstalled)' != 'true') oszacowano jako ('true' != 'true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) oszacowano jako ('false' != 'true' and 'true' != true).
+1>Pominięto element docelowy „GetFrameworkPaths”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „GetReferenceAssemblyPaths”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „AssignLinkMetadata” z powodu fałszywego warunku; ( '$(SynthesizeLinkMetadata)' == 'true' ) oszacowano jako ( '' == 'true' ).
+1>Element docelowy SetCABuildNativeEnvironmentVariables:
+1>  Zadanie „SetEnv”
+1>    CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+1>  Wykonywanie zadania „SetEnv” zakończone.
+1>  Pominięto zadanie „SetEnv” z powodu fałszywego warunku; ('$(RunMsvcAnalysis)'=='true' and '$(VCCodeAnalysisUX)'=='true') oszacowano jako ('false'=='true' and 'true'=='true').
+1>Element docelowy PrepareForBuild:
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') oszacowano jako ('' != 'true' and 'true' != 'true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)' != 'true' and '$(_ToolsetFound)' != 'true') oszacowano jako ('' != 'true' and 'true' != 'true').
+1>  Używanie zadania „MakeDir” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „MakeDir”
+1>  Wykonywanie zadania „MakeDir” zakończone.
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') oszacowano jako (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) oszacowano jako (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') oszacowano jako (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\'=='' and '' != 'true' and 'v142'=='v90').
+1>  Używanie zadania „CheckVCToolsetVersion” z zestawu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll”.
+1>  Zadanie „CheckVCToolsetVersion”
+1>  Wykonywanie zadania „CheckVCToolsetVersion” zakończone.
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(CheckMFCInstalled)' == 'true' and !Exists($(MFC_KeyFile)) and '$(SpectreLibs)' == '') oszacowano jako ('' == 'true' and !Exists(C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64\mfcs140.lib) and '' == '').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(CheckMFCInstalled)' == 'true' and !Exists($(MFC_KeyFile)) and '$(SpectreLibs)' != '') oszacowano jako ('' == 'true' and !Exists(C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64\mfcs140.lib) and '' != '').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(CheckATLInstalled)' == 'true' and !Exists($(ATL_KeyFile)) and '$(SpectreLibs)' == '') oszacowano jako ('' == 'true' and !Exists(C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64\atls.lib) and '' == '').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(CheckATLInstalled)' == 'true' and !Exists($(ATL_KeyFile)) and '$(SpectreLibs)' != '') oszacowano jako ('' == 'true' and !Exists(C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64\atls.lib) and '' != '').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)' != 'true' and
+1>                                                          '$(CheckMSVCComponents)'=='true' and
+1>                                                          '$(SpectreMitigation)' != '' and
+1>                                                          '$(SpectreMitigation)' != 'false' and
+1>                                                          (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_OneCore_CurrentPlatform_spectre)')) or
+1>                                                           ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_Desktop_CurrentPlatform_spectre)')))) oszacowano jako ('' != 'true' and
+1>                                                          'true'=='true' and
+1>                                                          'false' != '' and
+1>                                                          'false' != 'false' and
+1>                                                          (('Desktop' == 'OneCore' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\spectre\onecore\x64')) or
+1>                                                           ('Desktop' == 'Desktop' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\spectre\x64')))).
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true') oszacowano jako (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\'=='' and '' != 'true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') oszacowano jako (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') oszacowano jako (''!='true' and ''=='true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') oszacowano jako (''!='true' and ''=='true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') oszacowano jako ('' != '' and ''!='true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') oszacowano jako ('' != 'true' and '' == 'true').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(IntDirFullPath.StartsWith($(Tmp), true, null))' == 'true' or '$(IntDirFullPath.StartsWith($(Temp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(Tmp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(Temp), true, null))' == 'true')) oszacowano jako (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+1>  Zadanie „MakeDir”
+1>  Wykonywanie zadania „MakeDir” zakończone.
+1>Pominięto element docelowy „_PrepareForReferenceResolution”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ComputeCrtSDKReference” z powodu fałszywego warunku; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') oszacowano jako ('Source\List.cpp;Source\main.cpp;Source\MovieNode.cpp'!='' and 'false'=='true' and '' != 'false').
+1>Pominięto element docelowy „GetInstalledSDKLocations” z powodu fałszywego warunku; ('@(SDKReference)' != '') oszacowano jako ('' != '').
+1>Element docelowy ResolveSDKReferences:
+1>  Pominięto zadanie „ResolveSDKReference” z powodu fałszywego warunku; ('@(SDKReference)'!='') oszacowano jako (''!='').
+1>Pominięto element docelowy „ResolveSDKReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy ExpandSDKReferences:
+1>  Pominięto zadanie „GetSDKReferenceFiles” z powodu fałszywego warunku; ('@(ResolvedSDKReference)'!='') oszacowano jako (''!='').
+1>Pominięto element docelowy „ResolveNuGetPackageAssets” z powodu fałszywego warunku; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) oszacowano jako ('true' == 'true' and exists('obj\project.assets.json')).
+1>Pominięto element docelowy „ImplicitlyExpandNETStandardFacades” z powodu fałszywego warunku; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') oszacowano jako ('' == 'true').
+1>Pominięto element docelowy „_HandlePackageFileConflicts” z powodu fałszywego warunku; ('@(Reference)' != '' Or '@(ReferenceCopyLocalPaths)' != '') oszacowano jako ('' != '' Or '' != '').
+1>Pominięto element docelowy „ImplicitlyExpandNETStandardFacades” z powodu fałszywego warunku; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') oszacowano jako ('' == 'true').
+1>Element docelowy ResolveAssemblyReferences:
+1>  Pominięto zadanie „ResolveAssemblyReference” z powodu fałszywego warunku; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') oszacowano jako (''!='' or ''!='' or '' != '').
+1>Pominięto element docelowy „GenerateBindingRedirects” z powodu fałszywego warunku; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') oszacowano jako ('' == 'true' and 'true' == 'true').
+1>Pominięto element docelowy „_RemoveZipFileSuggestedRedirect” z powodu fałszywego warunku; ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true') oszacowano jako ('4.0' >= '4.7.1' And '' != 'true').
+1>Pominięto element docelowy „GenerateBindingRedirectsUpdateAppConfig” z powodu fałszywego warunku; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) oszacowano jako ('' == 'true' and 'true' == 'true' and Exists('x64\Release\Projekt_2.exe.config')).
+1>Pominięto element docelowy „ResolveComReferences” z powodu fałszywego warunku; ('@(COMReference)'!='' or '@(COMFileReference)'!='') oszacowano jako (''!='' or ''!='').
+1>Element docelowy AfterResolveReferences:
+1>Pominięto element docelowy „ImplicitlyExpandDesignTimeFacades” z powodu fałszywego warunku; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') oszacowano jako ('' == 'true').
+1>Pominięto element docelowy „ResolveTestReferences” z powodu fałszywego warunku; ('@(Shadow)'!='') oszacowano jako (''!='').
+1>Element docelowy ResolveReferences:
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy InitializeBuildStatus:
+1>  Używanie zadania „ReadLinesFromFile” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „ReadLinesFromFile”
+1>  Wykonywanie zadania „ReadLinesFromFile” zakończone.
+1>  Używanie zadania „WriteLinesToFile” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „WriteLinesToFile”
+1>  Wykonywanie zadania „WriteLinesToFile” zakończone.
+1>  Używanie zadania „Touch” z zestawu „Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+1>  Zadanie „Touch”
+1>    Modyfikowanie „x64\Release\Projekt_2.tlog\unsuccessfulbuild”.
+1>  Wykonywanie zadania „Touch” zakończone.
+1>Pominięto element docelowy „PrepareProjectReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy BuildGenerateSourcesTraverse:
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') oszacowano jako ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ResolveReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy BeforeBuildGenerateSources:
+1>Element docelowy PreBuildEvent:
+1>  Pominięto zadanie „Message” z powodu fałszywego warunku; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') oszacowano jako ('' != '' and '' != '').
+1>  Pominięto zadanie „Exec” z powodu fałszywego warunku; ('%(PreBuildEvent.Command)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „InitializeBuildStatus”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „SetBuildDefaultEnvironmentVariables”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „SetUserMacroEnvironmentVariables” z powodu fałszywego warunku; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') oszacowano jako ('' != '' and '' != 'true').
+1>Element docelowy _SelectedFiles:
+1>Element docelowy SelectCustomBuild:
+1>Element docelowy ComputeCustomBuildOutput:
+1>  Pominięto zadanie „CreateItem” z powodu fałszywego warunku; ('%(CustomBuildOutputs.OutputItemType)'!='') oszacowano jako (''!='').
+1>  Zadanie „MakeDir”
+1>  Wykonywanie zadania „MakeDir” zakończone.
+1>Element docelowy CustomBuild:
+1>  Używanie zadania „GetOutOfDateItems” z zestawu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll”.
+1>  Zadanie „GetOutOfDateItems”
+1>  Wykonywanie zadania „GetOutOfDateItems” zakończone.
+1>  Zadanie „GetOutOfDateItems”
+1>  Wykonywanie zadania „GetOutOfDateItems” zakończone.
+1>  Pominięto zadanie „ParallelCustomBuild” z powodu fałszywego warunku; ('@(_ParallelCustomBuild)' != '') oszacowano jako ('' != '').
+1>  Pominięto zadanie „CustomBuild” z powodu fałszywego warunku; ('@(_CustomBuild)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „FxExport” z powodu fałszywego warunku; ('@(FxCompile)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „FxCompile” z powodu fałszywego warunku; ('@(FxCompile)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „_CreateCopyFileItems” z powodu fałszywego warunku; ('@(CopyFileToFolders)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „_SelectedFiles”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy CopyFileToFolders:
+1>  Zadanie „GetOutOfDateItems”
+1>  Wykonywanie zadania „GetOutOfDateItems” zakończone.
+1>  Pominięto zadanie „Copy” z powodu fałszywego warunku; ('@(_OutOfDateCopyFile)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „Xsd” z powodu fałszywego warunku; ('@(Xsd)' != '') oszacowano jako ('' != '').
+1>Element docelowy _Xsd:
+1>Element docelowy MakeDirsForMidl:
+1>  Zadanie „Makedir”
+1>  Wykonywanie zadania „Makedir” zakończone.
+1>Pominięto element docelowy „Midl” z powodu fałszywego warunku; ('@(Midl)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „FxExport” z powodu fałszywego warunku; ('@(FxCompile)' != '') oszacowano jako ('' != '').
+1>Pominięto element docelowy „FxCompile” z powodu fałszywego warunku; ('@(FxCompile)' != '') oszacowano jako ('' != '').
+1>Element docelowy ComputeMIDLGeneratedCompileInputs:
+1>Element docelowy AfterMidl:
+1>Element docelowy _Midl:
+1>Element docelowy AfterBuildGenerateSources:
+1>Element docelowy AfterBuildGenerateSourcesEvent:
+1>Element docelowy _BuildGenerateSourcesAction:
+1>Element docelowy BuildGenerateSources:
+1>Pominięto element docelowy „PrepareProjectReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy BuildCompileTraverse:
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') oszacowano jako ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ResolveReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy BeforeClCompile:
+1>Pominięto element docelowy „GenerateTargetFrameworkMonikerAttribute” z powodu fałszywego warunku; ('$(GenerateTargetFrameworkAttribute)' == 'true') oszacowano jako ('false' == 'true').
+1>Pominięto element docelowy „ComputeMIDLGeneratedCompileInputs”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy ComputeCLInputPDBName:
+1>Pominięto element docelowy „ResolveReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy FindReferenceAssembliesForReferences:
+1>Pominięto element docelowy „PrepareForBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ResolveReferences”. Wcześniejsza kompilacja powiodła się.
+1>Element docelowy GetReferencedVCProjectsInfo:
+1>  Pominięto zadanie „MSBuild” z powodu fałszywego warunku; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '') oszacowano jako ('' == '.vcxproj' and '' != '' and '' != '').
+1>Element docelowy ComputeReferenceCLInput:
+1>  Pominięto zadanie „WriteLinesToFile” z powodu fałszywego warunku; ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') oszacowano jako (''!='' and '' != 'true' and 'true' == 'true').
+1>  Pominięto zadanie „WriteLinesToFile” z powodu fałszywego warunku; ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') oszacowano jako (''!='' and '' != 'true' and 'true' == 'true').
+1>  Pominięto zadanie „Message” z powodu fałszywego warunku; ('$(_REFERENCE_DEBUG)'=='true') oszacowano jako (''=='true').
+1>Element docelowy WarnCompileDuplicatedFilename:
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') oszacowano jako ('' != 'true' and 'List.cpp' != 'List.cpp' and 'x64\Release\' == 'x64\Release\').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') oszacowano jako ('' != 'true' and 'main.cpp' != 'main.cpp' and 'x64\Release\' == 'x64\Release\').
+1>  Pominięto zadanie „VCMessage” z powodu fałszywego warunku; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') oszacowano jako ('' != 'true' and 'MovieNode.cpp' != 'MovieNode.cpp' and 'x64\Release\' == 'x64\Release\').
+1>Element docelowy FixupCLCompileOptions:
+1>Element docelowy MakeDirsForCl:
+1>  Zadanie „MakeDir”
+1>  Wykonywanie zadania „MakeDir” zakończone.
+1>Pominięto element docelowy „_SelectedFiles”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „GenerateTargetFrameworkMonikerAttribute” z powodu fałszywego warunku; ('$(GenerateTargetFrameworkAttribute)' == 'true') oszacowano jako ('false' == 'true').
+1>Pominięto element docelowy „ComputeMIDLGeneratedCompileInputs”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ComputeCLInputPDBName”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „ComputeReferenceCLInput”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „WarnCompileDuplicatedFilename”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „FixupCLCompileOptions”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „SelectCustomBuild”. Wcześniejsza kompilacja powiodła się.
+1>Pominięto element docelowy „SetModuleDependencies” z powodu fałszywego warunku; ('$(DesignTimeBuild)' != 'true' and '$(EnableCppModules)' == 'true') oszacowano jako ('' != 'true' and '' == 'true').
+1>Element docelowy SelectClCompile:
+1>Pominięto element docelowy „SelectAnalysisManifest” z powodu fałszywego warunku; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') oszacowano jako ('false'=='true' and ''!='').
+1>Pominięto element docelowy „ManagedIncrementalBuildPreProcessDependencyGraph” z powodu fałszywego warunku; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') oszacowano jako ('Source\List.cpp;Source\main.cpp;Source\MovieNode.cpp' != '' and 'false' == 'True').
+1>Element docelowy ClCompile:
+1>  Pominięto zadanie „Delete” z powodu fałszywego warunku; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) oszacowano jako ('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'x64\Release\vc142.pdb' != '' and !Exists(x64\Release\vc142.pdb)).
+1>  Pominięto zadanie „MultiToolTask” z powodu fałszywego warunku; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == 'Modules') oszacowano jako ('' != 'true' and '' == 'Modules').
+1>  Pominięto zadanie „MultiToolTask” z powodu fałszywego warunku; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true') oszacowano jako ('' != 'true' and '' == '' and 'false' == 'true').
+1>  Pominięto zadanie „CL” z powodu fałszywego warunku; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') oszacowano jako ('NotUsing' == 'Create' and ''!='true' and '' == '' and 'false' != 'true').
+1>  Używanie zadania „CL” z zestawu „C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll”.
+1>  Zadanie „CL”
+1>    Dzienniki śledzenia odczytów:
+1>    	x64\Release\Projekt_2.tlog\CL.read.1.tlog
+1>    Dane wyjściowe dla D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\SOURCE\LIST.CPP|D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\SOURCE\MAIN.CPP|D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\SOURCE\MOVIENODE.CPP:
+1>    	D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\X64\RELEASE\LIST.OBJ
+1>    	D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\X64\RELEASE\MAIN.OBJ
+1>    	D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\X64\RELEASE\MOVIENODE.OBJ
+1>    Plik Source\main.cpp zostanie skompilowany, ponieważ nie odnaleziono go w dzienniku śledzenia.
+1>    Dane wyjściowe dla D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\SOURCE\MAIN.CPP:
+1>    	D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\X64\RELEASE\MAIN.OBJ
+1>    Dzienniki śledzenia zapisów:
+1>    	x64\Release\Projekt_2.tlog\CL.write.1.tlog
+1>    Zmienna środowiskowa przekazana do narzędzia:
+1>      VS_UNICODE_OUTPUT=1400
+1>    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt /analyze:stacksize 1600000620 Source\main.cpp
+1>    Polecenie śledzenia:
+1>    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\x64\Release\Projekt_2.tlog" /r "D:\KACPER\DESKTOP\DOKUMENTY\1. SEMESTR 4\PAMSI\PROJEKT_2\SOURCE\MAIN.CPP" /b MSBuildConsole_CancelEvent83ce59448f954e599388e131739d97fc  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe"  /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt /analyze:stacksize 1600000620 Source\main.cpp
+1>    main.cpp
+1>    D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Source\main.cpp(154,16): error C2039: „quickort”: nie jest składową elementu „QuickSort”
+1>    D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Headers\QuickSort.h(4): message : zobacz deklarację „QuickSort”
+1>    D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Source\main.cpp(154,24): error C3861: "quickort": identyfikatora nie odnaleziono
+1>    Polecenie zostało zakończone z kodem 2.
+1>  Wykonywanie zadania „CL” zakończone — NIEPOWODZENIE.
+1>Wykonano kompilowanie elementu docelowego „ClCompile” w projekcie „Projekt_2.vcxproj” — NIEPOWODZENIE.
+1>
+1>Kompilowanie projektu „Projekt_2.vcxproj” wykonane — NIEPOWODZENIE.
+1>
+1>Podsumowanie wydajności projektu:
+1>      547 ms  D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Projekt_2.vcxproj — wywołań:   1
+1>
+1>Podsumowanie wydajności elementu docelowego:
+1>        0 ms  _CheckForInvalidConfigurationAndPlatform — wywołań:   1
+1>        0 ms  _SelectedFiles                           — wywołań:   1
+1>        0 ms  SelectCustomBuild                        — wywołań:   1
+1>        0 ms  ComputeCustomBuildOutput                 — wywołań:   1
+1>        0 ms  CustomBuild                              — wywołań:   1
+1>        0 ms  CopyFileToFolders                        — wywołań:   1
+1>        0 ms  _Xsd                                     — wywołań:   1
+1>        0 ms  MakeDirsForMidl                          — wywołań:   1
+1>        0 ms  ComputeMIDLGeneratedCompileInputs        — wywołań:   1
+1>        0 ms  AfterMidl                                — wywołań:   1
+1>        0 ms  _Midl                                    — wywołań:   1
+1>        0 ms  AfterBuildGenerateSources                — wywołań:   1
+1>        0 ms  AfterBuildGenerateSourcesEvent           — wywołań:   1
+1>        0 ms  _BuildGenerateSourcesAction              — wywołań:   1
+1>        0 ms  BuildGenerateSources                     — wywołań:   1
+1>        0 ms  BuildCompileTraverse                     — wywołań:   1
+1>        0 ms  BeforeClCompile                          — wywołań:   1
+1>        0 ms  ComputeCLInputPDBName                    — wywołań:   1
+1>        0 ms  FindReferenceAssembliesForReferences     — wywołań:   1
+1>        0 ms  GetReferencedVCProjectsInfo              — wywołań:   1
+1>        0 ms  ComputeReferenceCLInput                  — wywołań:   1
+1>        0 ms  WarnCompileDuplicatedFilename            — wywołań:   1
+1>        0 ms  FixupCLCompileOptions                    — wywołań:   1
+1>        0 ms  MakeDirsForCl                            — wywołań:   1
+1>        0 ms  PreBuildEvent                            — wywołań:   1
+1>        0 ms  SelectClCompile                          — wywołań:   1
+1>        0 ms  BeforeBuildGenerateSources               — wywołań:   1
+1>        0 ms  InitializeBuildStatus                    — wywołań:   1
+1>        0 ms  SetTelemetryEnvironmentVariables         — wywołań:   1
+1>        0 ms  _PrepareForBuild                         — wywołań:   1
+1>        0 ms  _PrepareForReferenceResolution           — wywołań:   1
+1>        0 ms  BeforeResolveReferences                  — wywołań:   1
+1>        0 ms  AssignProjectConfiguration               — wywołań:   1
+1>        0 ms  _SplitProjectReferencesByFileExistence   — wywołań:   1
+1>        0 ms  _AddOutputPathToGlobalPropertiesToRemove — wywołań:   1
+1>        0 ms  _GetProjectReferenceTargetFrameworkProperties — wywołań:   1
+1>        0 ms  PrepareProjectReferences                 — wywołań:   1
+1>        0 ms  ResolveProjectReferences                 — wywołań:   1
+1>        0 ms  GetFrameworkPaths                        — wywołań:   1
+1>        0 ms  GetReferenceAssemblyPaths                — wywołań:   1
+1>        0 ms  AddExternalIncludDirectoriesToPaths      — wywołań:   1
+1>        0 ms  SetBuildDefaultEnvironmentVariables      — wywołań:   1
+1>        0 ms  GetResolvedWinMD                         — wywołań:   1
+1>        0 ms  _CheckWindowsSDKInstalled                — wywołań:   1
+1>        0 ms  SetCABuildNativeEnvironmentVariables     — wywołań:   1
+1>        0 ms  PrepareForBuild                          — wywołań:   1
+1>        0 ms  ResolveSDKReferences                     — wywołań:   1
+1>        0 ms  ExpandSDKReferences                      — wywołań:   1
+1>        0 ms  ResolveAssemblyReferences                — wywołań:   1
+1>        0 ms  AfterResolveReferences                   — wywołań:   1
+1>        0 ms  ResolveReferences                        — wywołań:   1
+1>        0 ms  BuildGenerateSourcesTraverse             — wywołań:   1
+1>      516 ms  ClCompile                                — wywołań:   1
+1>
+1>Podsumowanie wydajności zadania:
+1>        0 ms  Message                                  — wywołań:   2
+1>        0 ms  SetEnv                                   — wywołań:   9
+1>        0 ms  AssignProjectConfiguration               — wywołań:   1
+1>        0 ms  MSBuild                                  — wywołań:   1
+1>        0 ms  MakeDir                                  — wywołań:   5
+1>        0 ms  CheckVCToolsetVersion                    — wywołań:   1
+1>        0 ms  ReadLinesFromFile                        — wywołań:   1
+1>        0 ms  WriteLinesToFile                         — wywołań:   1
+1>        0 ms  Touch                                    — wywołań:   1
+1>        0 ms  GetOutOfDateItems                        — wywołań:   3
+1>      516 ms  CL                                       — wywołań:   1
+1>
+1>Kompilacja NIE POWIODŁA SIĘ.
+1>
+1>D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Source\main.cpp(154,16): error C2039: „quickort”: nie jest składową elementu „QuickSort”
+1>D:\Kacper\Desktop\Dokumenty\1. Semestr 4\PAMSI\Projekt_2\Source\main.cpp(154,24): error C3861: "quickort": identyfikatora nie odnaleziono
+1>    Ostrzeżenia: 0
+1>    Liczba błędów: 2
+1>
+1>Czas, który upłynął: 00:00:00.54
+========== Kompilacja: 0 zakończono powodzeniem, 1 zakończono niepowodzeniem, 0 zaktualizowano, 0 pominięto ==========
