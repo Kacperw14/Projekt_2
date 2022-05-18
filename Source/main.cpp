@@ -1,5 +1,4 @@
 #include<iostream>
-#include <iomanip>    //quoted
 #include<fstream>
 #include<ostream>
 #include<string>
@@ -9,12 +8,13 @@
 #include"../Headers/QuickSort.h"
 #include"../Headers/BucketSort.h"
 
-int arr[10000000];  /////arr
+int arr[10000000]; 
 
 using namespace std;
 int main()
 {
 	bool flaga = false;
+	bool flagaSrednia = false;
 	int num = 0;
 	List<MovieNode> L;
 	List<MovieNode>* Q = new List<MovieNode>();
@@ -24,19 +24,6 @@ int main()
 	ifstream file;
 	string help;
 	char choice = 'm';
-
-
-	/*Q->AddAtEnd(new MovieNode("a",1,1));
-	Q->AddAtEnd(new MovieNode("c",3,3));
-	Q->AddAtEnd(new MovieNode("b",2,2));
-	Q->AddAtEnd(new MovieNode("d",4,4));*/
-
-	//QuickSort::Sort(Q->First(), Q->Last());//, Q.Last());
-
-
-	Q->PrintList();
-	
-
 
 	while (choice != 'k')
 	{
@@ -56,28 +43,42 @@ int main()
 		break;
 		case 's':
 		{
+			float srednia = 0;
+
+			if (flagaSrednia)
+			{
+				for (int i = 0; i < num; i++)
+				{
+					srednia += arr[i];
+				}
+				if (num % 2 == 0) cout << "Mediana: " << (float)(arr[num/2-1] + arr[num / 2])/2 << endl;
+				else cout << "Mediana: " << arr[num/2] << endl;
+				cout << "Srednia: " << (srednia / num) << endl;
+			}
+			else 
+			{
 			MovieNode* M = L.First();
 			int size = L.Size();
 			int iter = 0;
-			float srednia = 0;
 			for (MovieNode* N = L.First(); N != L.Last()->GetNext(); N = N->GetNext())
 			{
 				srednia += N->GetRating();
-				if (++iter <= (size / 2)) M = N;
+				if (iter++ <= (size / 2)) M = N;
 			}
 			if (size % 2 == 0) cout << "Mediana: " << (float)(M->GetRating() + M->GetPrevious()->GetRating()) / 2 << endl;
 			else cout << "Mediana: " << M->GetRating() << endl;
 
 			cout << "Srednia: " << (srednia / L.Size()) << endl;
+			}
 		}
 		break;
 		case 'w':
 		{
+			L.ClearList();
 			file.open("projekt2_dane.csv");
 
 			if (file.is_open())
 			{
-				// 1010293                             Wszystkie dane
 				cout << "Ile danych wczytac? ";
 				cin >> num;
 				cout << endl;
@@ -137,13 +138,14 @@ int main()
 		case'e':
 		{
 			if (flaga)
-			{
+			{	
 				chrono::steady_clock::time_point TimerStart = chrono::high_resolution_clock::now(); //start Timera
-				MergeSort(arr, 0, num / 2 - 1);
+				MergeSort(arr, 0, num - 1);
 				chrono::steady_clock::time_point TimerEnd = chrono::high_resolution_clock::now(); //Koniec Timera
 				chrono::duration<float> ExTime = TimerEnd - TimerStart;
 				cout << "Czas wykonywania operacji: " << ExTime.count() << endl;
 				flaga = false;
+				flagaSrednia = true;
 			}
 			else cout << "Dane nalezy wczytac \'w\' przed kazdym uzyciem algorytmu sortowania" << endl;
 		}break;
@@ -181,7 +183,7 @@ int main()
 			if (w == 1) L.PrintList();
 			else if (w == 2)
 			{
-				PrintArray(arr, num / 2);
+				PrintArray(arr, num);
 				cout << endl;
 			}
 		}break;
