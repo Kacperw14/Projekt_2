@@ -51,7 +51,7 @@ int main()
 				{
 					srednia += arr[i];
 				}
-				if (num % 2 == 0) cout << "Mediana: " << (float)(arr[num/2-1] + arr[num / 2])/2 << endl;
+				if (num % 2 == 0) cout << "Mediana1: " << (float)((arr[(num/2)-1] + arr[num / 2]))/2 << endl;
 				else cout << "Mediana: " << arr[num/2] << endl;
 				cout << "Srednia: " << (srednia / num) << endl;
 			}
